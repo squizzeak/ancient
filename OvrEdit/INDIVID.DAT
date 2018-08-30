@@ -1,0 +1,2297 @@
+10-05
+IEMSI Negotiation...  000653033Attempting IEMSI negotiation ...
+...succss             000825008success.
+...failure            000863008failure.
+Success announcement  000834028Succesful IEMSI negotiation.
+Emulation detect...   003103035Attempting to detect emulation ...
+...RIP...             003148003RIP
+...and ansi           003163005/Ansi
+...Ansi...            003169004Ansi
+...and avatar         003184007/Avatar
+...Avatar             003192006Avatar
+Sysop win. PW display 004027012Password - "
+Sysop win. PH# display004042016Phone number - "
+Logon Incorrect       004060020^MLogon Incorrect.^M
+System Password prompt004139017^0System password
+No acs to node        004195054You don't have the required ACS to logon to this node!
+On other node         004350046^MYou are already logged in on another node!^M
+DOB Verify Prompt     004397048^MPlease verify your date of birth (mm/dd/yy) :
+User name not found   006649033You are not a member of this BBS.
+Not validated yet     006723032You have not been validated yet.
+Logon as new?         006756014Logon as new?
+No user handle #1     007910006Nobody
+Baud Rate Override:   008013029Baud Rate override password:
+must use at least...  008054027You must be using at least
+...<#> baud           008082023 baud to call this BBS.
+hours for <#> baud... 008118032Hours for those using less than
+...are <#> to <#>     008151015 baud are from
+Acs event 1           008281061Restricted: Only certain users allowed online at this time.^M
+Acs event 2           008349058This time window allows certain other users to get online.
+Acs event 3           008408043Please call back later, after it has ended.
+Logon as new?         008452014Logon as new?
+Expired to level <#>  008467030Subscription expired to level
+No acs to node        008505054You don't have the required ACS to logon to this node!
+On other node         008693046You have insufficient credits for online time.
+Only logon once a day 008749033You can only log on once per day.
+Only logon <#>...     008783020You can only log on
+...times per day.     008804015 times per day.
+Only logon <#> for... 008829024You can only log on for
+...minutes per day.   008854017 minutes per day.
+BUT: you have <#>...  008872024^M^M^5However, you have
+...minutes in bank.   008897032 minutes left in your Time Bank.
+Take them out?        008930025Withdraw from Time Bank?
+How many minutes?     008956027Withdraw how many minutes?
+In your account: <#>  008984021^5In your account: ^3
+Time left: <#>        009006025^5   Time left online: ^3
+Hanging up.           009071011Hanging up.
+Event approaching..   015350035^8Note: ^5System event approaching.
+Shut down in <#"mins">015386028System will be shut down in
+Invisible login?      015894017Invisible login?
+Fast logon?           015937012Fast logon?
+Last callers to <bbs> 015961023|15Last few callers to
+Happy bday <name>...> 016042018^3Happy Birthday,
+...You turned <age>...016066011You turned
+...a little late.     016086052(a little late, but it's the thought that counts!)^M
+New bulletins: <#>... 016173017^5New bulletins:
+...Read them?         016191013. Read them?
+Not voted on <#>...   016205028^M^5You have not voted on ^9
+...voting question(s) 016234018^5 voting question
+Read your email?      016288017Read your Email?
+New pw every <#>...   016315039^MYou must select a new password every
+... days.             016355008 days.^M
+Password:             025597010Password:
+Message bases packed  026056020Message bases packed
+Event at <time>       026134043Modem off hook in preparation for event at
+Executing event: <#>  026210017Executing event:
+Modem off hook        027551029Modem off hook - paging SysOp
+Talking to modem..    027614020Talking to modem ...
+2days callers to <bbs>027635022|15Today's callers to
+Pack msg bases?       027658024Pack the message bases?
+Check whose mail?     027683022User's mail to check:
+Send mail from?       027706024User to send mail from:
+Mass mail?            027731016Send mass mail?
+Newuser password:     032470018Newuser password:
+No user handle #2     032809007NO USER
+Saving info...        033710030^MSaving your information ...
+Insure policy         352464327That's what YOU think!!
+...Saved.             033789010^3Saved.^M
+Sys win saveinfo disp 033741031Saving new user information ...
+Send newuser letter.  033827060You must now send the SysOp a New User Application letter.
+New user handle       035445008NEW USER
+Needs FOSSIL driver   040246034Renegade requires a FOSSIL driver.
+Sys win dump scrn     040512026Dump screen to what file:
+Sys win log options   040539046Log options - [T]rap activity [C]hat buffering
+Sys win chat options  040586056Auto chat buffering - [O]ff [S]eparate [M]ain (CHAT.LOG)
+Sys win trap options  040643054Activity trapping - [O]ff [S]eperate [M]ain (TRAP.LOG)
+Sys win validate      040698047Enter the validation level (A-Z) for this user.
+Sys win val anno      040746029This user has been validated.
+Sys win 'no carrier'  040776020No carrier detected!
+Sys win user kb on    040797017User keyboard ON.
+Sys win user kb off   040815018User keyboard OFF.
+Sys win conference on 040866041The Conference system has been turned ON.
+Sys win conference off040908042The Conference system has been turned OFF.
+Sys win temp sys. acs 040951031Temporary SysOp access granted.
+Sys win normal acs    040983022Normal access restored
+Sys win scrn/kb off   041028028User screen and keyboard OFF
+Sys win scrn/kb on    041057027User screen and keyboard ON
+Sys win hangup file:  041085039Display what hangup file (HANGUPxx.*) :
+Sys win local disp on 041161017Local display on.
+Sys win user wakeup   041179018Waking up user ...
+Sys win chat req.     041198014Chat request:
+Sys win print file    041213017Print what file:
+Used up all time.     045446036^7You have used up all of your time.
+Edit win sec. lvl     046931022Security Level (0-255)
+Edit win d. sec. lvl  046954031Download Security Level (0-255)
+Edit win acct. bal.   046986015Account balance
+Edit win sys. note    047002024SysOp note for this user
+Edit win AR flags     047027032Access flags ("!" to toggle all)
+Edit win AC flags     047060037Restrictions & special ("!" to clear)
+Sys win cln wrk areas 053253025Cleaning up work areas...
+Quality assurance #1  083747033Quality assured by only the best.
+Sys win update files  053297023Updating data files ...
+Sys win chat attempt  059509015^4Chat attempt:
+Sysop not avail. Ovr? 059533035SysOp is not available. Override ?
+Register me!          375829348pleeeeeeeeeeeeeez!?
+Sys win chat choices  059569045Press [SPACE] to chat or [ENTER] for silence.
+Sys win chat req.     059618014Chat Request:
+Send mail to <name"?">059657013Send mail to
+Can't deposit time.   060828035You cannot deposit any more time.^M
+In account: [dep]     060864022^5In your account : ^3
+Time left: [dep]      060887022^5Time left online: ^3
+Max size:             060910022^5Max account size: ^3
+Deposit/day:          060933022^5Max deposit/day : ^3
+Deopsited today:      060956022^5Deposited today : ^3
+How many mins? [dep]  060979028^MDeposit how many minutes?
+Not enough time! [dep]061008048^7You don't have that much time left to deposit!
+Can only add <#>...   061057019^7You can only add
+...minutes per day!   061077033 minutes to your account per day!
+Acct limit is <#>...  061111032^7Your account deposit limit is
+...minutes!           061144009 minutes!
+Can't withdraw time.  062104053^7You cannot withdraw any more time during this call.
+In account: [wdrw]    062158022^5In your account : ^3
+Time left: [wdrw]     062181022^5Time left online: ^3
+Cheapskates don't     873927492Get away with jack shit!
+Max withdrawl:        062204022^5Max withdrawal  : ^3
+Withdrawn today:      062227022^5Withdrawn today : ^3
+How many mins? [wdrw] 062250029^MWithdraw how many minutes?
+Not enough time! [wdr]062280053^7You don't have that much time left in your account!
+Can't withdraw time.  062334042^7You cannot withdraw that amount of time.
+Can't mail user.      063806029Can't send mail to that user.
+Mail f'wded to <name> 063836018Mail forwarded to
+Can't send more than 1063857026Can't send more than once.
+Mass mail send hdr    064568023^MSending mass-mail to:
+Mass mail all #1      064647031Sending mass-mail to ALL USERS.
+Mass mail all #2      064679028Mass-mail sent to ALL USERS.
+No acs to send mail.  065389053Your access privledges do not include sending mail.^M
+Too much mail sent.   065443035Too much mail already sent today.^M
+No creds to mail.     065479045Insufficient account balance to send email.^M
+Netmail message?      065525033Is this to be a netmail message?
+Enter user#/name/etc. 065559057^MEnter user number, user name, or partial search string:
+Mass mail choice hdr  065628041Mass mail: Send mail to multiple users.^M
+Choice #1 [acs]       065670037(1) Send to users with a certain ACS.
+Choice #2 [all]       065708029(2) Send to all system users.
+Choice #3 [list]      065738035(3) Send mail to a list of users.^M
+Your choice:          065774013Your choice:
+Enter acs:            065793011Enter ACS:
+By ACS "[acs"""]      065805023^MUsers marked by ACS "
+All users marked      065836031All users marked for mass-mail.
+List entry #1         065868072Begin entering user names, numbers, or partial search strings for user's
+List entry #2         065941062you want to mail. Enter a blank line to stop entering names.^M
+Search string:        066004015Search string:
+Users marked:         066020013Users marked:
+Is this OK?           066034012Is this OK?
+No acs to mail        067555051Your access privledges do not include sending mail.
+No creds to mail      067607043Insufficient account balance to send email.
+Too much mail         067651025Too much mail sent today.
+Too much feedback     067677029Too much feedback sent today.
+Forwarding to <name>  067707036That user is forwarding his mail to
+Send mail to <name"?">067746013Send mail to
+No ACS to netmail     067764041^MYou are not authorized to send netmail.
+<net/m>ail to <name>  067814012ail sent to
+Netmail message #2    069079035^MIs this to be a netmail message?
+User not here.        069115040That user does not have an account here.
+Have to delete msg.   070257060^MSorry, you must read and reply to (or delete) your mail.^M
+Read mail prompt.     070318029Read mail (^5?^4=^5Help^4) :
+Forward to who?       070367032^MForward letter to which user?
+Unknown user.         070400013Unknown user.
+Forwarded to <name>   070414020Forwarded letter to
+Go to msg (<1-#")">   070435017Goto message? (1-
+Unable to find user!  070458022^7Unable to find user!
+Delete orig. msg?     070549025Delete original message?
+File attached #1      070575075^MIf you delete this message, you will not be able to download the attached
+File attached #2      070651037file currently in your batch queue.^M
+File attached #3      070689024Continue with deletion?
+Cont. list off.       074971033Continuous message listing off.^M
+Cont. list on.        075223032^MContinuous message listing on.
+Mail read prompt      075005021Mail read (?=help) :
+Deleted.              075277013Mail deleted.
+Undeleted.            075314015Mail undeleted.
+Go to which msg? <etc>075330023Goto which message? (1-
+Outgoing mail prompt  076506025Outgoing mail (?=help) :
+Mail deleted          076677013Mail deleted.
+Error opening MBASES  078678024Error opening MBASES.DAT
+Error saving msg base 078703026Error saving message base
+Error closing MBASES  078730024Error closing MBASES.DAT
+Cheapskates don't     873927492Get away with jack shit!
+Error opening msg file079576027Error opening message file.
+Error opening quote   080319025Error opening quote file.
+Error loading msg text080367027Error loading message text.
+Extract to file name: 082146020^MExtract filename:
+<default name>        082167007MSG.TXT
+Are you sure?         082178014Are you sure?
+Strip colors?         082193031Strip color codes from output?
+Can't create file.    082225019Cannot create file.
+Error loading msg text082245027Error loading message text.
+Message extracted.    082273022^MMessage extracted.^M
+<date unknown string> 082981009[Unknown]
+Msg hdr date: <date>  082991010^1Date: ^9
+Msg hdr num. <#>...   083002013^1Number : ^9
+... of <#>            083016008^1 of ^9
+Msg hdr from: <name>  083025010^1From: ^5
+Msg hdr base: <base>  083049014^1 Base   : ^5
+Msg hdr to: <name>    083064010^1To  : ^5
+Msg hdr refer: <#>    083075014^1 Refer #: ^5
+Msg hdr replies: <#>  083110014^1 Replies: ^5
+Msg hdr Stat: <stat>  083125009^1Stat: ^
+Msg hdr origin: <node>083208013^1Origin : ^5
+Msg hdr real: <name>..083228010^1Real: ^5
+...to <name>          083239008^1 to ^5
+Note: msg f'wded from:083248033^8Note:^5 Message forwarded from
+Error acsing msg text 086333029Error accessing message text.
+Error loading msg text086363027Error loading message text.
+Origin string         086391011 * Origin:
+File attached:        086414036^M^4The following has been attached:
+File attach hdr:      086451033^M^4Filename.Ext Bytes   hh:mm:ss
+File attach bar:      086485029------------ ------- --------
+Download now?         086526014Download now?
+Move files?           086554014Move file(s)?
+Enter path to move to:086569031Enter path to move file(s) to:
+Insufficient time.    086603033Insufficient time for download.^M
+No wildcards.         090227049^1You cannot add wildcards to a batch transfer.^M
+Insufficient time.    090277031Insufficient time for transfer.
+Batch queue full.     090309024The batch queue is full.
+File not exist.       090364018File doesn't exist
+Invalid entry.        091536014Invalid entry.
+Today have dld: <#>   091561026Today you have downloaded
+Max dl: <#>           091610043The maximum you can download in one day is
+UL ratio off dl'd:    091660021You have downloaded:
+UL ratio off ul'd:    091688021You have uploaded  :
+1 for every <#>...    091710021  1 upload for every
+...downloads          091732030 downloads must be maintained.
+1k for every <#>...   091763032  1k must be uploaded for every
+...k downloaded.      091796013k downloaded.
+No DL: Bad ratio      091810039Download refused: Ratio out of balance:
+Batch queue #1        091865059Assuming you download the files already in the batch queue,
+Batch queue #2[1]     091925051your upload/download ratio would be out of balance.
+Batch queue #2[2]     091977057you would exceed the maximum download limits for one day.
+Copying file from CD  092035041Please wait, copying file from CD-ROM ...
+Auto logoff?          092082034^MAutologoff after file transfer?
+Ready to send <file>  092117014Ready to send
+Ivalid entry.         094475014Invalid entry.
+Ready to recv <file>  094491017Ready to receive
+Batch options.        100226079^MBatch queue [^5L^4]ist batch, [^5R^4]emove a file, [^5C^4]lear, [^5Q^4]uit :
+Queue empty.          100432022^M^1Batch queue empty.
+Checking DL req.      100455038^M^1Checking batch download request...
+Number of files: <#>  100494027^MNumber files in batch: ^5
+Time: <time>          100522027^1Batch download time  : ^5
+Left: <left>          100550027^1Time left online     : ^5
+Creds req'd: <creds>  100578027^1Credits required     : ^5
+Your creds: <creds>   100606027^1Your credits         : ^5
+Insufficient creds.   100634036^MInsufficient credits for download.
+Insufficient time.    100671033^MInsufficient time for download.
+Take out some files.  100705042Remove some files from your batch queue.^M
+Invalid entry.        100748014Invalid entry.
+Auto logoff?          100763032Autologoff after file transfer?
+Download descriptions?100796028Download file descriptions?
+Copying file from CD  100840042Please wait, copying files from CD-ROM ...
+Insufficient space.   100887021^MInsufficient space.
+Initiating batch trans100916026Initiating batch transfer.
+DL totals: <# files>  100946020Download totals : ^5
+Transfer: <# bytes>   100997010Transfer:
+Charges: <# creds>    101023020Download charges: ^5
+Time: <time>          101044020Download time   : ^5
+Rate: <# cps>         101065020Transfer rate   : ^5
+Insure policy         352464327That's what YOU think!!
+Not xfer'd: <#f,bytes>101091020Not transferred : ^5
+Batch queue empty.    105424020^MBatch queue empty.
+Batch list hdr.       105445050^M^4##:Filename.Ext Area Pts   Bytes      hh:mm:ss
+Batch list bar.       105496046--------------- ---- ----- ---------- --------
+<no-ratio>            105572013^5 [No-Ratio]
+Batch list bar:       105586048^4--------------- ---- ----- ---------- --------
+Totals:               105635007Totals:
+Batch queue empty.    106579020^MBatch queue empty.
+File remove (1-<#>    106600020^MFile to remove (1-
+<file> deleted f batch106640020 deleted from batch.
+Queue now empty.      106661016Queue now empty.
+Clear queue?          106963013Clear queue?
+Queue now empty.      106977016Queue now empty.
+Enjoy the file, <name>108116018^5Enjoy the file,
+Creds deducted to <#> 108137037^5Your credits have been deducted to
+Thanks for ul, <name> 108352025^5Thanks for the upload,
+Will recv cred soon #1108380071^5You will receive file credit as soon as the SysOp validates the file!
+Will recv cred soon #2108452067^5You will receive credits as soon as the SysOp validates the file!
+Will recv cred soon #3108520067^5You will receive credits as soon as the Sysop validates the file!
+Req file: ask <sys>...108901038^M^5You must Request this file -- Ask
+...for it.            108940010 for it.^M
+Insure policy         352464327That's what YOU think!!
+Req' file now? [Y] :  108951029Request this file now? [Y] :
+Can't play w/RESLATR  109014046You can't do anything with RESUME-LATER files.
+Can't play w/UNVAL'D  109061045You can't do anything with UNVALIDATED files.
+Insuf. time for xfer  109107031Insufficient time for transfer.
+File doesn't exist.   109139029File does not actually exist.
+Enter dest path:      109859028^MEnter the destination path
+Copying..             109888014^1Copying ...
+Download unsuccessful 109903022Download unsuccessful.
+1 file sent in <time> 1099530281 file successfully sent in
+You receieved <#>...  110073013You received
+Cheapskates don't     873927492Get away with jack shit!
+...<"cred"> for <file>110087021 for the download of
+Press [CR] or [Q]     110109042^M^5Press [Enter] to continue or [Q]uit :
+No acs to file.       111827045You do not have access to download that file.
+No file dling now.    112474047^MFile downloading is not allowed at this time.
+Filename:             112552012^MFilename:
+File ul #1:           113017054^MBegin description with (/) to make upload 'Private'.
+File ul #2:           113072071Enter your text. (Enter) alone to end. (50 chars/line, 5 lines maximum)
+Importing description 113910022Importing description.
+Recompress file?      114903022Recompress this file?
+Register me!          375829348pleeeeeeeeeeeeeez!?
+Convert to .<arc>...  114926020Convert archive to .
+... format?           114947009 format?
+No errors converting. 114957037No errors in conversion, file passed.
+Errors in conversion. 115021048Errors in conversion!  Original format retained.
+Searching for dupes.. 117356040^5Searching for possible duplicates ...
+File "<name>...       117462008^5File "
+..." is in "<area> OR 117471021" already exists in "
+..." cannot be acceptd117501048" cannot be accepted by the system at this time.
+Illegal filename.     117550019^7Illegal filename.
+No dupes found.       117659020No duplicates found.
+Legal filename chars. 1187880490123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ.-!#$%^&'~()_
+Ilegal filename.      118838017Illegal filename.
+This is a reslatr file118856028This is a resume-later file.
+Cannot be resumed locl118885026Cannot be resumed locally.
+Res ul of "<file""?"> 118912018Resume upload of "
+You are not the ul'r. 118936040^7You are not the uploader of this file.
+File does not exist.  118977048This file does not exist in the files directory.
+Create offline entry? 119026040Do you want to create an offline entry?
+File exists.          119067020File already exists.
+Directory full.       119088023This directory is full.
+Insuff. Disk space.   119112024Insufficient disk space.
+Drive full            119209012 Drive full.
+Exists in upload path 119222028File exists in upload path:
+Exists in listing.    119254031^5Note: File exists in listing.
+Quit or ul? [default] 119286032^7[Q]uit or Upload this? (Y/N) [
+Upload this? [default]119343020Upload this? (Y/N) [
+Search for dupes?     119369023Search for duplicates?
+Unable to UL.         119411031Unable to upload that filename.
+<file> now in ul queue119449027 now in upload batch queue.
+hit [cr] to stop addn 119477038Hit [Enter] to stop adding to queue.^M
+Gave refund of <time> 119516020Gave time refund of
+xfer complete.        119537018Transfer complete.
+Orig file size: <size>119595017Org file size: ^5
+New file size: <size> 119621017New file size: ^5
+File size: <size>     119639017File size    : ^5
+Ul time: <time>       119657017Upload time  : ^5
+Convert time: <time>  119675017Convert time : ^5
+xfer rate: <rate>     119693017Transfer rate: ^5
+Time refund: <time>   119716017Time refund  : ^5
+credits: <creds>      119734017Credits      : ^5
+No UL time refund #1  119757055Sorry, no upload time refund may be given at this time.
+No UL time refund #2  119813043You will get your refund after the event.^M
+Entry added.          119857012Entry added.
+UL Not received.      119870020Upload not received.
+Save file for resume? 119904030Save file for a later resume?
+Error uploading <file>119963018^3Error uploading
+Taking away <time>    119986027Taking away time refund of
+Can't UL to section   124573034You cannot upload to this section.
+Upload queued files?  124615021Upload queued files?
+Filename:             124637012^MFilename:
+No files found.       124650015No files found.
+File not found.       126070015File not found.
+File:                 126086008^1File:
+DL any file prompt:   126404051^MEnter file name to download (d:path\filename.ext)
+<area> NOT scanned    128374021 will NOT be scanned.
+<area> scanned        128396017 WILL be scanned.
+Resume notice         131221064^8>^7>> ^3You ^5MUST RESUME^3 this file to receive credit for it
+Search all conf's?    133391024Search all conferences?
+Searching for "<text> 134744017^MSearching for "
+Search all dirs?      134766024Search all directories?
+Search all conf's?    134791024Search all conferences?
+Quality assurance #1  083747033Quality assured by only the best.
+No matching files.    134839020^MNo matching files.
+Search all dirs?      136347024Search all directories?
+Highest accs. fbase.  136623031^MHighest accessible file base.
+Lowest accs. fbase.   136655030^MLowest accessible file base.
+Change file area:     136695038^1Change file base (^5?^1=^5List^1) :
+Temp dir. path        137468041^MEnter file path for temporary directory
+Temp dir. name        137552015<< Temporary >>
+Node prompt:          138873012Which node:
+Node unavailable      138886034That node is unavailable for chat.
+Hangup node <#>?      139161021Hang up user on node
+Recycle node <#>...   139186013Recycle node
+...after logoff?      139200015 after logoff?
+<name> on node <#>... 139396009 on node
+... paged you for chat139406026 has paged you for chat.^M
+New private mail waitn139570040^M^8You have new private mail waiting.^M
+[<name> has entered.] 141434026 ^0has entered the room. ]
+Now in conf room <#>  141461035^1You are now in conference room ^3
+Topic is: <topic>     141502026^1The Current Topic is: ^3
+Only one present.     141529031^1You are the only one present.
+[<name> has left.]    142159023^0 has left the room. ]
+Not moderator.        143160033^M|10You are not the moderator.^M
+User not logged on.   143194034^M|10That user is not logged on.^M
+Invalid room #.       143229027^M|10Invalid room number.^M
+User not in room.     143257037^M|10That user is not in this room.^M
+Conference room: <#>  143415021^9Conference Room: ^3
+Moderator: <user>     143437016 ^9Moderator: ^3
+Type: <type>          143469010^9Type: ^3
+Topic: <topic>        143480011^9Topic: ^3
+In anon. mode.        143492031This room is in anonymous mode.
+You are EJECTED.      144897044^5You have been ^0EJECTED^5 from the room.^M
+Welcome to teleconf   146091075^0  Welcome to Teleconferencing.  Type ^5/?^0 for help or ^5/Q^0 to quit.^M
+ppl in global chan <#>146172045^0The following people are in global channel
+Not in global chan.   146244036^0You are not in a global channel.^M
+Can't forget a sysop. 146297030^9You cannot forget a sysop.^M
+<name> forgotten.     146328022^9 has been forgotten.
+<name> remembered.    146360023^9 has been remembered.
+[room in <mode> mode] 146416026^0[ This room is now in ^2
+interruption <on/off> 146458035^9Your message interruption is now
+[room now <pub/priv>] 146509023^0[ This room is now ^2
+[<name> invited <#>]  146542043^9 is inviting you to join conference room
+<name> on node <#>... 146589011^9 on node
+...is invited.        146601018 has been invited.
+Now in glob. chan <#> 146627034^M^0You are now in global channel
+[<name> in g.chan <#>]146666027 has joined global channel
+Disconnect?           146699037Are you sure you want to disconnect?
+[<name> hungup <node>]146744028^0 has disconnected on node
+Msg echo <off/on>     146778027^9Your message echo is now
+Can't eject person.   146812033^9You cannot eject that person.^M
+[<name>ejctd by<name>]146846044^9 has just been ejected from the room by ^0
+[Conference <name>... 146900018^0[ Conference '^2
+...moderated by <name>146919026^0' is now moderated by ^2
+User forgot you.      146946032^9That user has forgotten you.^M
+User unavailable.     146979029^9That user is unavailable.^M
+Pvt msg sent to <name>147009028^9Private message sent to ^0
+Ejected from room.    147038040^5You were ^0EJECTED^5 from that room.^M
+Must be invited.      147079052^9You must be invited to private conference rooms.^M
+Available for chat.   154340031You are now available for chat.
+Not available.        154372031You are not available for chat.
+Msg from <name>       154535017^M^5Message from
+Node forgot you.      154569030^MThat node has forgotten you.
+Activity: xfer        155616018Transferring files
+Activity: door        155635013Out in a door
+Activity: read msgs   155649016Reading messages
+Activity: write msgs  155666017Writing a message
+Activity: Read email  155684013Reading Email
+Activity: offline mail155698018Using offline mail
+Activity: Teleconf    155717016Teleconferencing
+Activity: Misc        155734013Miscellaneous
+Oldest date for msgs? 158747036^MEnter oldest date for new msgs: ^M
+Illegal date.         158804013Illegal date.
+Insure policy         352464327That's what YOU think!!
+Current date is <date>158818030^MCurrent newscan date is now
+Reset pointers.       158849025Reset last read pointers.
+Select archive type.  160379038Please select an archive type first.^M
+Create QWK packet?    160427038Create a new QWK packet for download?
+Max # per base        161043044Maximum number of messages per base reached.
+Max # per packet      161088050Maximum number of messages per QWK packet reached.
+No new messages!      161156016No new messages!
+Proceed?              161173031Proceed to packet compression?
+Error archiving QWK!  161231029^MError archiving QWK packet!
+QWK packet created.   161261019QWK packet created.
+Not enough time.      161281044^MSorry, not enough time left to transfer.^M
+Packet size is: <size>161326026Compressed packet size is
+Packet xferred.       161353018Packet transferred
+Updating pointers..   161395025Updating message pointers
+Pointers updated.     161421024Message pointers updated
+Nocracksaredone.      756398295at least; not in the way that you think
+Private mail killed.  161446020Private Mail killed.
+Quality assurance #1  083747033Quality assured by only the best.
+Replace existing QWK? 161467025^MReplace existing .QWK?
+Bidir. ul of <fname>..161504024Bidirectional upload of
+....REP detected.     161529013.REP detected
+Restricted from post. 168678045^MYou are restricted from posting messages.^M
+Xfer successful.      168763019Transfer successful
+Packet already ul'd   168788047^MThis packet has already been uploaded here.^M
+Error processing      168836028Error processing REP packet.
+Version               16889300910-05 Exp
+Origin Line           168903011 * Origin:
+Netmail message?      168926035^MIs this to be a netmail message?
+Send w/ real name?    168962031Send this with your real name?
+Unable to decompress. 169003032Unable to decompress REP packet.
+Xfer unsuccessful.    169036021Transfer unsuccessful
+Delete .REP packet?   169058021^MDelete REP packet?
+Add to BBS list?      177256036Do you want to add to the BBS list?
+Cheapskates don't     873927492Get away with jack shit!
+Enter phone #:        177293025^MEnter the phone number:
+Already there.        177333024^5It's already in there.
+Enter name of BBS:    177358026Enter the name of the BBS:
+Max speed:            177392049^MEnter max speed of system (ie, 300,2400,14400).
+BBS type:             177461033^MEnter a 4-8 character BBS type.
+Correct?              177511017Is this correct?
+No adding to BBS list.177548049^7You are restricted from adding to the BBS list.
+User info header.     178840020^5[User Information]
+Personal info header. 178864023        ^9Personal Info
+Board info header.    178888010Board Info
+User name: <name>     178908016^1User name : ^0
+Security: <SL>        178925015^1Security : ^0
+Balance: <bal>        178941016^1Balance   : ^0
+Real name: <real name>178958016^1Real name : ^0
+Last on: <date>       178975015^1Last on  : ^0
+First on: <date>      178991019^1   First on  : ^0
+Sex/age: <s/a>        179031016^1Sex/Age   : ^0
+Calls: <#>            179048015^1Calls    : ^0
+Time on: <time>       179064016^1Time on   : ^0
+Phone num: <#>        179081016^1Phone num : ^0
+Time left: <time>     179098015^1Time left: ^0
+Time bank: <time>     179114016^1Time bank : ^0
+Address: <Address>    179131016^1Address   : ^0
+Posts: <#>            179148015^1Msg posts: ^0
+email sent: <#>       179164016^1Email sent: ^0
+Uploads: <#>          179181015^1Uploads  : ^0
+City/state: <city/st> 179199016^1City/State: ^0
+Today on: <#>         179216016^1Today on  : ^0
+Downloads: <#>        179233015^1Downloads: ^0
+Zip code: <zip>       179249016^1Zip code  : ^0
+Time available: <time>179266016^1Time avail: ^0
+Misc info hdr:        179283020^9Miscellaneous Info
+Pause on screen: <y/n>179318021^1Pause on screen: ^0
+Hot key input: <y/n>  179340028^1        Hot-key input : ^0
+Register me!          375829348pleeeeeeeeeeeeeez!?
+Help mode: <n/x>      179369025^1       Help mode   : ^0
+Screen clear: <y/n>   179397021^1Screen clearing: ^0
+Color?: <y/n>         179419028^1        Color monitor : ^0
+Screen size: <size>   179448025^1       Screen size : ^0
+Term emu: <emu>       179507021^1Term emulation : ^0
+Timenaml added: <time>179529025^1     Timebank added: ^0
+Mail stat: <stat>     179555018^1Mail status : ^0
+Editor: <editor>      179609021^1Editor enabled : ^0
+Illegal logons: <#>   179631019^1Illegal logons: ^
+Mail waiting: <#>     179655017^1Mail waiting: ^
+No listing users.     182261038You are restricted from listing users.
+File "<name>...       186626006File "
+..." doesnt exist.    186633037" doesn't exist - changing extension.
+Old space: <size>     186710027Old total space took up  :
+New space: <size>     186745027New total space taken up :
+Space saved: <size>   186773027Space saved              :
+Wasted: <size>        186801027Space wasted             :
+Unable to convert.    186829018Unable to convert
+Archive filename:     188861018Archive filename:
+Format not supported. 188884029Archive format not supported.
+Add files to list:    188914033^MAdd files to list - <CR> to end
+Add files prompt:     188952031^MAdd files to list (?=help) :
+Adding <#>...         189065007Adding
+...files to archive.  189073020 files to archive...
+Errors in adding files189098022Errors in adding files
+Continue anyways?     189121017Continue anyway?
+Note: Exists already! 189139039^5NOTE: File already exists in listing!
+Add archive?          189179024Add archive to listing?
+Replace file in dir?  189204029Replace a file in directory?
+Enter filename:       189234018^MEnter filename:
+File not found!       189253015File not found!
+Aborted!              189269008Aborted!
+Delete original files?189278023Delete original files?
+No files in list!     189302017No files in list!
+Remove filename:      189331017Remove filename:
+Remove it?            189349014   Remove it?
+Convert formats hdr   189364029^MConvert archive formats -^M
+Filespec:             189394009Filespec:
+Converting "<file>"   189475012Converting "
+Old space: <size>     189527027Old total space took up  :
+New space: <size>     189562027New total space taken up :
+Saved: <size>         189590027Space saved              :
+Wasted: <size>        189618027Space wasted             :
+Unable to convert     189646018Unable to convert
+Search all dirs?      189665024Search all directories?
+Total converted: <#>  189723027Total archives converted :
+Comment update hdr    189801026^MComment field update -^M
+Comment to use:       189828035Comment to use? (1-3,0=None) [1] :
+Commenting "<file>"   189864012Commenting "
+File test hdr         189877028^MFile integrity testing -^M
+Delete files?         189906039Delete files that don't pass the test?
+Testing "<file>"      189946009Testing "
+File "<file>...       189956006File "
+..." didn't pass.     189963029" didn't pass integrity test.
+Passed test.          189993022Passed integrity test.
+Converting "<file>"   198546012Converting "
+File "<file>...       198561006File "
+..." doesn't exist.   198568016" doesn't exist.
+Old space: <size>     198670027Old total space took up  :
+New space: <size>     198705027New total space taken up :
+Saved: <size>         198733027Space saved              :
+Wasted: <size>        198761027Space wasted             :
+Re-compress hdr       200928026^MRe-compress archives -^M
+Filespec:             200955009Filespec:
+Use ext. utility?     200967048^M^7Do you wish to use a REZIP external utility?
+(example) y/n? :      201016030(such as REZIP.EXE) ? (Y/N) :
+Enter command line.   201047041^MEnter commandline (example: "REZIP") :
+Search all dirs?      201089024Search all directories?
+Total converted: <#>  201252027Total archives converted :
+Old space: <size>     201280027Old total space took up  :
+New space: <size>     201315027New total space taken up :
+Saved: <size>         201343027Space saved              :
+Wasted: <size>        201371027Space wasted             :
+Sort all dirs?        203675022Sort all directories?
+UL batch queue empty. 204472027^MUpload batch queue empty.
+Batch list hdr        204500036^M^4##:Filename.Ext Area Description
+Bar #1                204537076--------------- ---- -------------------------------------------------------
+Bar #2                204660078^4--------------- ---- -------------------------------------------------------
+UL batch queue empty. 205384027^MUpload batch queue empty.
+File remove (<1-<#>...205412022^MFile # to remove (1-
+"<file>" deld from que205453030" deleted out of upload queue.
+UL queue now empty.   205484023Upload queue now empty.
+Clear UL queue?       205793020Clear upload queue?
+UL queue now empty.   205814023Upload queue now empty.
+Moving file to <area> 205942017Moving file to ^5
+<file> suc'flly UL'd  205960025 successfully uploaded.^M
+Error moving <file>...206047015^3Error moving
+...to directory <dir> 206063013 to directory
+UL not received.      206077020Upload not received.
+Save file for resume? 206098030Save file for a later resume?
+Progress: <prog>      206129012^5Progress:
+Errors batch uling:   206177025^3Errors batch uploading
+Time ref of <time>... 206207015Time refund of
+...taken away.        206223020 will be taken away.
+Insuff. disk space.   207676024Insufficient disk space.
+Drive full.           207773012 Drive full.
+Warning #1/1          207795046Warning!  No upload batch files specified yet.
+Warning #2/1          207842057If you continue, and batch upload files, you will have to
+Warning #3/1          207900060enter file descriptions for each file after the batch upload
+Warning #4/1          207961012is complete.
+Warning #1/2          207982060^1If you batch upload files IN ADDITION to the files already
+Warning #2/2          208043057specified in your upload batch queue, you must enter file
+Warning #3/2          208101057descriptions for them after the batch upload is complete.
+Invalid Entry         208159014Invalid entry.
+Batch Queue prompt:   208174079^MBatch queue [^5L^4]ist batch, [^5R^4]emove a file, [^5C^4]lear, [^5Q^4]uit :
+Insure policy         352464327That's what YOU think!!
+Autologoff?           208259033Autologoff after file transfer ?
+Ready to rec'v queue! 208297029Ready to receive batch queue!
+Batch UL complete.    208331033Batch upload transfer complete.^M
+No UL's detected!     208372020No uploads detected!
+Hanging up..offhook.. 208393039Hanging up and taking phone off hook...
+Files UL'd: <#>       208433021Files uploaded   : ^5
+Amount UL'd: <bytes>  208463021Amount uploaded  : ^5
+Time: <time>          208493021Batch upload time: ^5
+Rate: <rate>          208515021Transfer rate    : ^5
+Refund: <time>        208542021Time refund      : ^5
+Deleting dupe file..  208573024Deleting duplicate file.
+Not in queue descript.208598049Not in upload batch queue - hungup after transfer
+File base [default]   208648020File base (?=List) [
+Can't put there       208676024You cannot put it there.
+File credits: <creds> 208735021File credits:
+Upload Credits:<creds>208763020Upload credits:
+Thanks for file <name>208789019Thanks for the file
+Thanks for file <name>208814021^5Thanks for the file
+You will receive...   208836019^5You will receive
+...file credit OR...  208856011file credit
+Quality assurance #1  083747033Quality assured by only the best.
+...credits...         208868007credits
+...as soon as val'd.  208876040 as soon as the SysOp validates the file
+No refund #1          208917055Sorry, no upload time refund may be given at this time.
+No refund #2          208973043You will get your refund after the event.^M
+Hanging up phone again209017025Hanging up phone again...
+>>> You have <#>...   212950020^M^9>> ^3You have ^5
+...file(s)...         212971007^3 file
+...in DL batch queue. 212982035 left in your download batch queue.
+...in UL batch queue. 213018033 left in your upload batch queue.
+pseudos entry.        214669071^MRenegade's internal DOS emulator.  Supported command are limited.^M^M
+File not found.       214825015File not found.
+Are you sure?         214841014Are you sure?
+Invalid pathname.     214896017Invalid pathname.
+Unable to create dir. 214923027Unable to create directory.
+Cheapskates don't     873927492Get away with jack shit!
+Unable to remove dir. 214960027Unable to remove directory.
+No wildcards allowed. 214993047Wildcards not allowed in destination parameter!
+Invalid drive.        215153014Invalid drive.
+File name:            215213011File name:
+Needs a parameter.    215263018Needs a parameter.
+No files found!       215282015No files found!
+<#> free on <drive>   215333015 bytes free on
+Command too long!     215357021^MCommand too long!^M
+Archive conversion #1 215391041 - Renegade archive conversion command.^M
+Archive conversion #2 215495063Renegade will convert from the one archive format to the other.
+Archive conversion #3 215559068You only need to specify the 3-letter extension of the new format.^M
+Conversion unsuc'ful. 215638024Conversion unsuccessful.
+Decompress #1         215675045 - Renegade archive de-compression command.^M
+Decompress #2         215755057The archive type can be any archive format which has been
+Register me!          375829348pleeeeeeeeeeeeeez!?
+Decompress #3         215813052configured into Renegade via System Configuration.^M
+Compress #1           215899042 - Renegade archive compression command.^M
+Compress #2           215982057The archive type can be ANY archive format which has been
+Bad comd or file name.216040025Bad command or file name.
+Type "EXIT" to ret... 222947037^MType "EXIT" to return to Renegade^M
+Scanning <dir>...     223205013^MScanning ^5
+Complete.             223230009Complete.
+Upload? <ynaq>        223252029Upload (Yes, No, All, Quit)?
+UL file hdr.          224561035^MUpload files into directories -^M
+Search all dirs?      224597024Search all directories?
+Upload instructs #1   224622061Enter . to end processing, .S to skip the file, .N to skip to
+Upload instructs #2   224684048the next directory, and .D to delete the file.^M
+You've been Val'd!    225952060You've been validated!  You do not need to use this command.
+Press enter to abort  226013023Press [Enter] to abort.
+Password:             226037012^MPassword:
+Correct. You are val'd226198034^MCorrect.  You are now validated.
+No acs to post.       227158052Your access does not allow you to post on this base.
+No creds to post.     227211047Insufficient account balance to post a message.
+No acs to post.       227259047Your access priviledges do not include posting.
+Too many msgs posted. 227307031Too many messages posted today.
+Already at first msg. 229940033^MAlready at the first message.^M
+Msg edit prompt:      229974037^MMessage editing (^5?^4=^5Help^4) :
+Reload old info?      230126024Reload old information?
+Can't edit that.      230153031Sorry, you can't edit that.^M^J
+Edit name prompt:     230185052Edit name (P)osted to, (R)eal name, (S)ystem name :
+Edit name prompt:     230243052Edit name (P)osted as, (R)eal name, (S)ystem name :
+Private reply?        230403031Is this to be a private reply?
+Reply in email?       230435016Reply in Email?
+Cont. msg list on.    230452034^MContinuous message listing on.^M
+Permanent message.    230487032^MThis is a permanent message.^M
+Undeleted message.    230520020^MUndeleted message.
+Deleted message.      230554018^MDeleted message.
+Nocracksaredone.      756398295at least; not in the way that you think
+Isnt your message.    230584028^MThat isn't your message.^M
+Hiread pointer set <#>230613053^MHighest-read pointer for this base set to message #
+<will/wont> be scanned230737034 be scanned in future new scans.^M
+<name> cant be removed230775039^3 cannot be removed from your newscan.
+Validate messages?    230815024Validate messages here?
+Private message?      230856033Is this to be a private message?
+Scan method prompt:   237400033^MScan method (^5?^4=^5Help^4) :
+Text to scan for:     237505019Text to scan for :
+New msgs only?        237525024Scan new messages only?
+Global scan?          237550013Global scan?
+Scanning for yours..  238218037^MScanning for your new messages...^M
+Update msg pointers?  238297043Update message read pointers on this base?
+No msgs found.        238341020No messages found.^M
+Newscan of bases      239584024Newscan of message bases
+Global newscan?       239800016Global NewScan?
+Error editing.        241119022Error editing message.
+Error loading msg text241142027Error loading message text.
+Error reading edited  241171026Error reading edited text.
+Enter board #         242007036Enter board #, (?)List, or (Q)uit :
+Cant move there.      242054020Can't move it there.
+Move successful.      242085018Move successful.^M
+Packing all msg bases.243101027Packing all message bases^M
+Packing Private mail  243129024^1Packing ^5Private Mail
+Packing <base name>   243160012^1Packing ^5
+Pack all msg bases?   243507024Pack all message bases?
+Packing <base name>   243555014^M^1Packing ^5
+Ranged to toggle:     243753080Range to toggle (^5x^4-^5y^4), [F]lag or [U]nflag all, [Q]uit (^5?^4=^5List^4):
+Reading ALL bases.    243845042^MYou are now reading all message bases.^M
+Reading NO bases.     243890046^MYou are now not reading any message bases.^M
+<base> cant be removed243942041^3 cannot be removed from your newscan.^M
+Invalid range.        244018018^MInvalid range.^M
+Error renaming temp   245243040Error renaming temp files while packing.
+Change to which user? 247157022Change to which user?
+HISTORY.DAT not found 247510022HISTORY.DAT not found.
+Logs for <# days>...  248803033^MSysOp Logs available for up to
+...days ago.          248837010 days ago.
+Date or days ago <etc>248848033Date (MM/DD/YY) or # days ago (0-
+Sysop log not found.  248912022^MSysOp Log not found.
+Editing topic         249782014Editing topic
+Choice:               249797009 choice:
+Topic choice hdr      249807016^1Topic choice #
+1. Line 1:            249832015^11. Line 1: ^5
+2. Line 2:            249848015^12. Line 2: ^5
+3. Voters:            249864015^13. Voters: ^5
+4. Delete choice      249880018^14. Delete choice
+Q. Quit               249899009^1Q. Quit
+Edit menu (?=Help) :  249909023^MEdit menu (?=Help) :
+New number of voters: 250099022New number of voters:
+Are you sure?         250122014Are you sure?
+Jump to entry:        250152015Jump to entry:
+Begin edit at which?  252024027Begin editing at which? (1-
+Voting topic hdr      252071016^1Voting topic #
+1. Topic:             252096022^11. Topic        : ^5
+2. Creator:           252119022^12. Creator      : ^5
+3. Acs to vote:       252142023^13. ACS to vote  : ^5"
+4. Acs to add:        252168023^14. ACS to add   : ^5"
+5. # of votes:        252192022^15. # of votes   : ^5
+   # of choices:      252215022^1   # of choices : ^5
+6. Reset voting       252238017^16. Reset voting
+7. Edit choices       252256017^17. Edit choices
+8. Add a choice       252274017^18. Add a choice
+Q. Quit               252292009^1Q. Quit
+Edit menu (?=Help)    252302023^MEdit menu (?=Help) :
+New topic:            252476011New topic:
+New creator:          252488013New creator:
+New voting ACS:       252502016New voting ACS:
+New add choices ACS:  252519021New add choices ACS:
+New # of voters:      252541022New number of voters:
+Reset voting?         252564014Reset voting?
+Choice Editor hdr     252579017^1Choice editor^M
+Begin at which? <etc> 252614029^MBegin editing at which? (1-
+Add choice hdr        252644011Add choice
+Line 1:               252659010^MLine 1:
+Line 2:               252670008Line 2:
+Aborted.              252679008Aborted.
+Jump to entry:        252688015Jump to entry:
+Voting topic editor:  255315031Voting topic editor (?=help) :
+Delete this?          255476013Delete this?
+Add a new topic?      255515024Add a new voting topic?
+Conference editor bar 256623065^4=:========================================:====================
+Conference edit prompt256696031^MConference editor (?=help) :
+Delete which conf?    256735031Delete which conference (A-Z)?
+Insert which conf?    256770031Insert which conference (A-Z)?
+Default conf name     256802017<< Not Defined >>
+Modify which conf?    256908033Modify which conference (@,A-Z)?
+Conference name:      256942017Conference name:
+Conference ACS:       256963017Conference ACS :
+No voting             259818033You are restricted from voting.^M
+Only vote once!       259980027^MYou can only vote once!^M
+Results of topic <#>..261352026Results of which topic (1-
+No voting.            261612033You are restricted from voting.^M
+Renegade voting hdr   261646019^3Renegade voting^M
+<#>. Add choice       261693041^9.<Pick this one to add your own choice>
+Change vote?          261735018Change your vote?
+Your choice:          261754014Your choice :
+Add this choice?      261786017Add this choice?
+See results?          261823013See results?
+Track which user?     263133020^MTrack which user?
+Add topic hdr         263292028^3Renegade voting addition^M
+Register me!          375829348pleeeeeeeeeeeeeez!?
+Topic:                263321007Topic:
+Are you sure?         263329014Are you sure?
+Allow others to add?  263347034Allow other users to add choices?
+Now enter choices #1  263384061^M^9Now enter the choices.  You have up to two lines for each
+Now enter choices #2  263446060choice. Press [Enter] on a blank first choice line to end.^M
+Add topic?            263519016Add this topic?
+No more room!         263556030No room for additional topics!
+Insert # base? (1-<#>)265359026Insert how many bases? (1-
+Default msg base name 265395014<< Not Used >>
+Begin at? (1-<#>)     267231027Begin editing at which? (1-
+File base #<#>  hdr   267264013^5File base #
+1. Name:              267286021^11. Name        : ^5
+2. Filename:          267308021^12. Filename    : ^5
+3. DL/UL path:        267330021^13. DL/UL path  : ^5
+4. ACS req'd:         267356021^14. ACS req'd   : ^5
+5. UL/DL ACS:         267378021^15. UL/DL ACS   : ^5
+6. Max files:         267400021^16. Max files   : ^5
+7. Password:          267422021^17. Password    : ^5
+8. Arc/cmt type:      267451021^18. Arc/cmt type: ^5
+   Flags:             267473021^1   Flags       : ^5
+Q. Quit               267495009^1Q. Quit
+Edit menu prompt      267505023^MEdit menu (?=help) :
+Toggles:              267685010^MToggles:
+New name:             267785012New name: ^5
+New filename:         267798014New filename:
+Old DIR name: "<name>"267815021^MOld DIR filename: "
+New DIR name: "<name>"267839019New DIR filename: "
+Rename data files?    267863019Rename data files?
+Cheapskates don't     873927492Get away with jack shit!
+Error renaming files. 267883021Error renaming files.
+Enter new DL path:    267905023Enter new download path
+<path> does not exist.267929016 does not exist.
+Create directory now? 267946022Create directory now?
+Error creating dir.   267969025Error creating directory.
+Enter new UL path:    267995021Enter new upload path
+New ACS:              268017009New ACS:
+New UL ACS:           268027012New UL ACS:
+New DL ACS:           268040012New DL ACS:
+New max files:        268053015New max files:
+New PW:               268069008New PW:
+New arc type [<#>]    268080033New archive type ("0" for none) [
+New cmt type [<#>]    268119018New comment type [
+Old DIR name: <name>  268138018Old DIR filename:
+New DIR name: <name>  268157018New DIR filename:
+Move DIR file to dir? 268176036Move old DIR file to new directory?
+Progress: <#>         268213014^M^5Progress:
+Move failed           268228013^7Move failed
+Insufficient space.   268242029 - Insuffient space on drive
+Jump to entry:        268276015Jump to entry:
+File base edit hdr    272384100^0NNN^4:^3File base name           ^4:^3Flags ^4:^3ACS       ^4:^3UL ACS    ^4:^3DL ACS    ^4:^3Maxf
+File base edit bar    272485076^4===:=========================:======:==========:==========:==========:====
+File base toggle hdr  272562084^0NNN^4:^3File base name  ^4:^3Filename^4:^3Download path           ^4:^3Upload path
+File base toggle bar  272647080^4===:================:========:========================:=======================
+File base edit prompt 272743030^MFile base editor (?=help) :
+Base to del? (1-<#>)  272883024File base to delete? (1-
+File base:            272913015^MFile base: ^5
+Delete this?          272929013Delete this?
+Delete data file?     272965018Delete data file?
+Deleting: <file>      272984010Deleting:
+Ins. before? (1-<#>)  273005031File base to insert before? (1-
+How many bases:       276205029Insert how many bases? [1] :
+No more than 1024     276235070You cannot have more than 1,024 bases with base number compression on.
+Enter new <desc>...   278386010Enter new
+... color:            278397015 color (0-9) :
+Edit which (1-<#>)    278650027Begin editing at which? (1-
+Msg base edit hdr: <#>278683016^5Message base #
+1. Name:              278708021^11. Name        : ^5
+2. Filename:          278730021^12. Filename    : ^5
+3. Base type:         278795021^13. Base type   : ^5
+4. Acs req.           278846021^14. ACS req.    : ^5
+5. Post/MCI acs:      278868021^15. Post/MCI ACS: ^5
+6. Sysop ACS:         278894021^16. Sysop ACS   : ^5
+7. Max Mess:          278916021^17. Max Mess    : ^5
+8. Anonymous:         278971021^18. Anonymous   : ^5
+9. Password:          278993021^19. Password    : ^5
+N. Net address:       279021021^1N. Net Address : ^5
+C. Colors:            279088021^1C. Colors      : ^5
+M. Mail flags:        279110021^1M. Mail flags  : ^5
+O. Origin line:       279132021^1O. Origin line : ^5
+T. Toggles:           279154021^1T. Toggles     : ^5
+P. Qwk Index:         279176021^1P. QWK Index   : ^5
+Q. Quit               279198009^1Q. Quit
+Edit menu:            279208023^MEdit menu (?=help) :
+New name:             279257010New name:
+New filename:         279268014New filename:
+Old fnames: "<name>"  279283026^MOld HDR/DAT filenames: "
+New fnames: "<name>"  279314024New HDR/DAT filenames: "
+Rename?               279345039Rename old filenames to new filenames?
+Error renaming .HDR   279385030Error renaming *.HDR filename.
+Error renaming .DAT   279421030Error renaming *.DAT filename.
+Error renaming .SCN   279457030Error renaming *.SCN filename.
+Local/echo/group/qwk  279488042[L]ocal [E]choMail [G]roupMail [Q]wkMail:
+Quality assurance #1  083747033Quality assured by only the best.
+Are you the top star? 279537042Are you the Top Star for this conference?
+Current msg path:     279580024^MCurrent message path:
+<CR> for default <def>279614034^MPress [Enter] to use default of
+Enter new msg path:   279649024^MEnter new message path
+Nocracksaredone.      756398295at least; not in the way that you think
+"<path>" dont exist   279678017" does not exist.
+Create msg dir now?   279696030Create message directory now?
+Error creating dir.   279727026Errors creating directory.
+Note: "<path>...      279754009^MNote: "
+..." already exists.  279764019" already exists.^M
+New ACS:              279784009New ACS:
+New post ACS:         279794014New Post ACS:
+New MCI ACS:          279809013New MCI ACS:
+New SysOp ACS:        279823015New SysOp ACS:
+Max messages:         279839014Max messages:
+Anonymous types:      279854020Anonymous types:^M^M
+Yes, anon allowed     279875035Yes, anonymous allowed, selectively
+No, anon not allowed  279912025No, anonymous not allowed
+Forced anon           279938016Forced anonymous
+New anon type:        279955027^MNew Anon. type (YNFDA) :
+New PW:               279997008New PW:
+Use which aka:        280011017^MUse which aka:
+Permanent QWK index:  280190017Permanent Index:
+New origin line:      280310021Enter new origin line
+Jump to entry:        280332015Jump to entry:
+Move msg base (1-<#>) 286916028Move which message base? (1-
+Move b4 base (1-<#>)  286950035Move before which message base? (1-
+Base list hdr part #1 287363044^0Num ^4:^3Base name                   ^4:^3
+Base list bar part #1 287577036^4====:============================:
+Base list hdr part #2 287408005Flag
+Insure policy         352464327That's what YOU think!!
+Base list hdr part #3 287420010ACS
+Base list hdr part #4 287431009Post ACS
+Base list hdr part #5 287441009MCI ACS
+Base list hdr part #6 287451006MaxM
+Base list bar part #2 287460045=====:==========:=========:=========:======:=
+Toggle part #1        287506011Address
+Toggle part #2        287518012Message path
+Base list toggle bar  287531045===========:=================================
+Message base editor:  287646033^MMessage base editor (?=help) :
+# to del? (1-<#>)     287789027Board number to delete? (1-
+Message base: <name>  287822018^MMessage base: ^5
+Delete this?          287841013Delete this?
+Remove directory <dir>287855017Remove directory
+Delete message files? 287902022Delete message files?
+Board # to ins (1-<#>)287940034Board number to insert before? (1-
+Default long desc     292307025(XXX)New Renegade Command
+Default short desc    292333012(XXX)New Cmd
+Default cmdkeys       292346003XXX
+Delete menu file:     293925018Delete menu file:
+Menu file "<name>"    293949016^MMenu file: ^4"
+Delete it?            293968011Delete it?
+Insert menu file:     294271018Insert menu file:
+Move cmd (1-<#>)      294853023Move which command? (1-
+Move b4 cmd (1-<#>)   294882030Move before which command? (1-
+Modify menu file:     295297018Modify menu file:
+Menu filename:        295321017^3Menu filename:
+1. Menu titles:       295339020^11. Menu titles   :
+   Menu title #2:     295360018   Menu title #2 :
+   Menu title #3:     295379018   Menu title #3 :
+Generic file desc     295398009*Generic*
+2. Help files:        2954080182. Help files    :
+3. Menu prompt:       2954310183. Menu Prompt   :
+4. ACS req'd:"<acs>"  295460021^14. ACS required  :"
+Register me!          375829348pleeeeeeeeeeeeeez!?
+5. Password:          2954910185. Password      :
+6. Fallback menu:     2955100186. Fallback menu :
+7. Forced ?-level:    2955340187. Forced ?-level:
+8. Generic info:      2955530188. Generic info  :
+9. Flags:             2955830189. Flags         :
+Q. Quit               295602009^1Q. Quit
+Menu editor prompt:   295612025^MMenu editor (?=help) :
+Copy cmd? (1-<#>)     295851023Copy which command? (1-
+Copy b4? (1-<#>)      295880030Copy before which command? (1-
+# of times? (1-<#>)   295911024Copy how many times? (1-
+No more than 100 cmds.295945060^7You already have 100 commands, delete some to make room.^M
+Del cmd? (1-<#>)      296006025Delete which command? (1-
+ins b4? (1-<#>)       296032032Insert before which command? (1-
+How many? (1-<#>)     296065029Insert how many commands? (1-
+Three mnu titles. #1  296095040^M^5Up to THREE menu titles are allowed.
+Three mnu titles. #2  296136039Just leave unwanted titles set to NULL.
+New mnu tit. #<#>     296176018^MNew menu title #
+New help file:        296198031^MNew file displayed for help:
+New ext'd help file:  296230040^MNew file displayed for extended help:
+New mnu prompt:       296271019^MNew menu prompt:
+New mnu ACS:          296291016^MNew menu ACS:
+New password:         296308016^MNew password:
+New fallback menu:    296327021^MNew fallback menu:
+New helplvl [<#>]     296349043^MNew forced menu help-level (1-3,0=None) [
+C. Generic columns:   296398025^M^1C. Generic columns  :
+1. Bracked Color:     2964240211. Bracket color    :
+Cheapskates don't     873927492Get away with jack shit!
+2. Command color:     2964460212. Command color    :
+3. Description color: 2964680213. Description color:
+S. Show menu:         296490014S. Show menu^M
+Select prompt:        296505025Select (CS,1-3,Q=Quit) :
+# of gen cols [<#>]   296539037New number of generic columns (1-7) [
+New generic menu clr  296577023New generic menu color
+Choose:               296791009Choose :
+Saving menu.......    296815018Saving menu.......
+RG menu editor hdr    301530024^3Renegade Menu Editor^M
+Menu edit prompt"     301561025^MMenu editor (?=help) :
+Edit which (1-<#>)    303113027Begin editing at which? (1-
+Menu filename:        303146017^3Menu filename:
+Command #<#>          303164009Command #
+1. Long desc:         303182020^11. Long descript :
+2. Short desc:        3032030182. Short descript:
+3. Menu keys:         3032220183. Menu keys     :
+4. ACS Req'd:"<acs>"  3032410194. ACS required  :"
+5. Cmdkeys:           3032630185. Cmdkeys       :
+6. Options:           3032820186. Options       :
+(H)idden              303304008(H)idden
+(U)nhidden            303316010(U)nhidden
+   Flags:             303332018   Flags         :
+Q. Quit               303351007Q. Quit
+Nocracksaredone.      756398295at least; not in the way that you think
+Edit menu prompt:     303359023^MEdit menu (?=help) :
+New long description: 303400021New long description:
+New short desc:       303424023New short description:
+New cmd letters:      303448021New command letters:
+New ACS:              303470009New ACS:
+New cmd prompt:       303480022New command (?=List):
+New options:          303513013New options:
+Jump to entry:        303527015Jump to entry:
+ACS restrict event    305842012ACS restrict
+Chat event            305859010Chat event
+DOS Shell event       305874009DOS shell
+External event        305888008External
+Pack msgs event       305901009Pack msgs
+Sort files event      305915010Sort files
+Undefined event       306476017<< Not Defined >>
+Edit which (1-<#>)    306860027Begin editing at which? (1-
+Event #<#>            306893009^5Event #
+!. Active:            306911022^1!. Active       : ^5
+1. Description:       306934022^11. Description  : ^5
+Quality assurance #1  083747033Quality assured by only the best.
+2. Sched. type:       306957022^12. Sched. type  : ^5
+3. Event data:        306980022^13. Event data   : ^5
+4. Off hook time:     307018022^14. Off hook time: ^5
+5. Exec time:         307041022^15. Exec. time   : ^5
+6. Busy during:       307064022^16. Busy during  : ^5
+7. Soft event:        307087022^17. Soft event   : ^5
+8. Run if missed:     307110022^18. Run if missed: ^5
+9. Duration:          307133022^19. Duration     : ^5
+Today                 307156005Today
+<#> day(s) ago        307162011 day(s) ago
+9. Last day exec:     307174022^19. Last day exec: ^5
+A. Days active:       307197022^1A. Days active  : ^5
+B. Node number:       307220022^1B. Node number  : ^5
+Edit menu:            307243023^MEdit menu (?=help) :
+Node to exec from:    307288044Node number to execute event from (0=All) :
+New description:      307333017New description:
+New schedule type:    307351030New schedule type? [ACDEPS] :
+ACS Event desc        307398043^5ACS event: ACS string required of callers
+Chat call event desc  307442024^5Chat call: 0=Off, 1=On
+DOS event desc        307467028^5DOS event: Dos commandline
+External event desc   307496035^5External: Errorlevel to exit with
+Pack event desc       307532033^5Pack message bases. No options.
+Sort event desc       307566030^5Sort file bases. No options.
+New data:             307597012^MNew data:
+New busy time:        307610029New busy time (0 for none) :
+New event time #1     307640062^5All entries in 24 hour time.  Hour: (0-23), Minute: (0-59)^M
+New event time #2     307703015New event time:
+Hour:                 307719011  Hour   :
+Minute:               307731026                 Minute :
+Take phone off hook?  307758044Take the phone off the hook for this event?
+Hard or soft?         307803070Would you like this event to disconnect the user and run immediately?
+Run if missed?        307874050Run this event later if the event time is missed?
+New duration:         307925014New duration:
+# of days since exec  307940037Number of days since last execution:
+Weekly/monthly [<def>]307978024[W]eekly or [M]onthly? [
+Day of month? [<def>] 308013033^MWhat day of the month? (1-31) [
+Current:              308047013^M^5Current:
+Days active #1        308061044Modify by entering an "X" under days active.
+Days active #2        308106009[SMTWTFS]
+Jump to entry:        308120015Jump to entry:
+Move which? (1-<#>)   311094021Move which event? (1-
+Event list hdr        311482099^3 NN^4:^3Description                   ^4:^3Typ^4:^3Bsy^4:^3Time ^4:^3Len^4:^3Days   ^4:^3Execinfo
+Event list bar        311582075^4 ==:==============================:===:===:=====:===:=======:============
+Event editor prompt   311679026^MEvent editor (?=help) :
+Event to del (1-<#>)  311801020Event to delete? (1-
+Event: <name>         311827011^MEvent: ^4
+Delete this?          311839013Delete this?
+Max # of events       311871046You already have the maximum number of events.
+Ins. before (1-<#>)   311918027Event to insert before? (1-
+System config hdr     313800027^5System configuration:^1^M
+Main/modem cfg        313828068A. Main BBS Configuration                B. Modem/Node Configuration
+ACS/variable cfg      313897060C. System ACS Settings                   D. System Variables
+Toggles/File cfg      313958069E. System Toggles                        F. File System Configuration
+Sub/Network cfg       314028065G. Subscription/Validation System        H. Network Configuration
+QWKMail/String cfg    314094064I. Offline Mail Configuration            J. String Configuration
+Color/Archive cfg     314159065K. Color Configuration                   L. Archive Configuration
+Credit config         314225043M. Credit System Configuration           ^M
+Time per <day/call>   3142790201. Time allowed per
+Max calls per day     3143180202. Max calls per day
+ULDL #/k cfg          3143390633. UL/DL # files ratio                   4. UL/DL K-bytes ratio
+Post/call/Max DLS cfg 3144030655. Post/Call ratio                       6. Max downloads per day
+Max dls K/sys avg cfg 3144690667. Max download kbytes per day           8. Update System Averages
+Enter selection prompt314536037^MEnter selection (A-M,1-8) [Q]uit :
+Time limitations hdr  314598016Time limitations
+Call per day hdr      314615022Call allowance per day
+UL/DL # hdr           314638043UL/DL # files ratio (# files can DL per UL)
+UL/DL k hdr           314682041UL/DL K-bytes ratio (#k can DL per 1k UL)
+PCR hdr               314724060Post/Call ratio (posts per 100 calls) to have Z ACS flag set
+# dls per day hdr     314785038Maximum number of downloads in one day
+# dls k per day hdr   314824050Maximum amount of downloads (in kbytes) in one day
+Credit config hdr     315827024^5Credit System Config^M
+A. Charge/minute      315852028^1A. Charge/minute       :^5
+B. Message post       315881028^1B. Message post        :^5
+C. Email sent         315910028^1C. Email sent          :^5
+D. Free time at logon 315939028^1D. Free time at logon  :^5
+E. Internet mail cost 315968028^1E. Internet mail cost  :^5
+Enter selection prompt315997033^MEnter selection (A-E) [Q]uit :
+Credits per min:      316039035Credits charged per minute online:
+Credits per post:     316075034Credits charged per message post:
+Credits per email:    316110032Credits charged per email sent:
+Free time at logon:   316143044Minutes to give users w/o credits at logon:
+Cost for inet mail:   316188033Cost for Internet mail messages:
+ZIP view desc         316923021*Internal* ZIP viewer
+ARC/PAK view desc     316945025*Internal* ARC/PAK viewer
+ZOO view desc         316971021*Internal* ZOO viewer
+Register me!          375829348pleeeeeeeeeeeeeez!?
+LZH view desc         316993021*Internal* LZH viewer
+ARJ view desc         317015021*Internal* ARJ viewer
+Cheapskates don't     873927492Get away with jack shit!
+-1 desc               317426012-1 (ignores)
+Archive cfg hdr       317514028^5Archive configuration edit
+Archive cfg bar       317634074^4 ==:===:=========================:=========================:============
+<#>. Cmt file:        317744026. Archive comment file: ^5
+Enter selection prompt317771040^MEnter selection (1-3, I,D,M) [Q]uit :
+Begin at which?       317930024Begin editing at which?
+1. Active:            317973032^11. Active                 : ^5
+2. Extension:         318006032^12. Extension name         : ^5
+3. Interior list:     318039032^13. Interior list method   : ^5
+4. Compression:       318072032^14. Compression cmdline    : ^5
+5. Decompression:     318105032^15. Decompression cmdline  : ^5
+6. File test:         318138032^16. File testing cmdline   : ^5
+7. Add comment:       318171032^17. Add comment cmdline    : ^5
+8. Errorlevel:        318204032^18. Errorlevel for success : ^5
+Q. Quit               318237009^1Q. Quit
+Edit menu prompt:     318247027^MEdit menu: (1-8,[,],Q) :
+New extension:        318360015New extension:
+New commandline:      318376017New commandline:
+Set to NULL string?   318394020Set to NULL string?
+New errorlevel:       318415016New errorlevel:
+Delete which?         318432014Delete which?
+Delete it?            318452014   Delete it?
+Insert b4 (1-<#>)     318467023Insert before which (1-
+Range settings        322029041^MRange settings (S)et (T)oggle (Q)uit :
+From (0-255):         322076016^MFrom (0-255):
+To (0-255):           322093014To   (0-255):
+Value to set (0-32767)322108024Value to set (0-32767):
+Enter new "<desc>...  322616011Enter new "
+..." string:          322628009" string:
+A. Anonymous:         322747019^1A. Anonymous    :
+B. Logon note #1      322767019^1B. Logon note #1:
+   Logon note #2      322787019^1   Logon note #2:
+C. Logon prompt:      322807019^1C. Logon prompt :
+D. Echo chr:          322827019^1D. Echo chr     :
+E. Your password:     322847019^1E. Your password:
+F. Your phone #:      322867019^1F. Your phone # :
+G. Engage chat:       322887019^1G. Engage chat  :
+H. Exit chat:         322907019^1H. Exit chat    :
+I. Sysop working:     322927019^1I. Sysop working:
+J. Pause screen:      322947019^1J. Pause screen :
+Select: [A-J]         322967037^MEnter selection (A-J,[,]),(Q)uit :
+A. Message entry #1   323019023^1A. Message entry L#1:
+B. Message entry #2   323043023^1B. Message entry L#2:
+C. NewScan start:     323067023^1C. NewScan start    :
+D. NewScan done:      323091023^1D. NewScan done     :
+E. Read msgs prompt:  323115023^1E. Read msgs prompt :
+F. Automessage by:    323139023^1F. Automessage by:  :
+Insure policy         352464327That's what YOU think!!
+G. Auto border char.: 323163023^1G. Auto border char.:
+H. Quote header #1    323187023^1H. Quote header L#1 :
+I. Quote header #2    323211023^1I. Quote header L#2 :
+J. Continue Prompt:   323235023^1J. Continue prompt  :
+A. Shell to DOS #1    323259022^1A. Shell to DOS L#1:
+B. Shell to DOS #2    323282022^1B. Shell to DOS L#2:
+C. Chat call #1       323305022^1C. Chat call L#1   :
+D. Chat call #2       323328022^1D. Chat call L#2   :
+E. Shuttle prompt:    323351022^1E. Shuttle prompt  :
+F. Name not found:    323374022^1F. Name not found  :
+G. Bulletin Line:     323397022^1G. Bulletin line   :
+H. Protocol prompt:   323420022^1H. Protocol prompt :
+I. Chat call reason:  323443022^1I. Chat call reason:
+Select: [A-I]         323466037^MEnter selection (A-I,[,]),(Q)uit :
+A. List line:         323517023^1A. List line        :
+B. File NewScan line: 323541023^1B. File NewScan line:
+C. Search line:       323565023^1C. Search line      :
+D. Find Descrip #1    323589023^1D. Find Descrip. L#1:
+E. Find Descrip #2    323613023^1E. Find Descrip. L#2:
+F. Download Line:     323637023^1F. Download line    :
+G. Upload Line        323661023^1G. Upload line      :
+H. View content line: 323685023^1H. View content line:
+I. Insuff. Credits:   323709023^1I. Insuff. credits  :
+J. Bad UL/DL ratio:   323733023^1J. Bad UL/DL ratio  :
+A. P/N file info:     323757022^1A. P/N file info   :
+B. Get filespec #1    323780022^1B. Get filespec L#1:
+C. Get filespec #2    323803022^1C. Get filespec L#2:
+D. Add to batch:      323826022^1D. Add to batch    :
+E. Adding batches:    323849022^1E. Adding batches  :
+F. Reading prompt:    323872022^1F. Reading prompt  :
+G. Scanning prompt:   323895022^1G. Scanning prompt :
+H. Use defaults:      323918022^1H. Use defaults    :
+I. Newscan begins:    323941022^1I. Newscan begins  :
+J. Newscan done:      323964022^1J. Newscan done    :
+<#>. User ? #<#>      323990017. User question #
+<#>. Editor ? #<#>    324011023. User editor display #
+Select: [A-F]         324035037^MEnter selection (A-F,[,]),(Q)uit :
+Anonymous string:     326291016Anonymous string
+Enter logon note      326308046^1Enter new logon note. You may use two lines.
+Logon prompt:         326355012Logon prompt
+Quality assurance #1  083747033Quality assured by only the best.
+Enter new echo char:  326368026Enter new echo character:
+Your password:        326395013Your password
+Your phone #:         326409017Your phone number
+Engage chat           326427011Engage chat
+End chat:             326439008End chat
+Sysop working         326448013SysOp working
+Pause                 326462005Pause
+Message entry #1      326468020Message entry line 1
+Message entry #2      326489020Message entry line 2
+Newscan line #1       326510014NewScan line 1
+Newscan line #2       326525014NewScan line 2
+Read msg prompt       326540019Read message prompt
+Automessage title     326560018Auto message title
+Enter new border:     326579042^1Enter new auto message border character:
+Quote hdr #1          326622019Quote header line 1
+Quote hdr #2          326642019Quote header line 2
+Continue prompt       326662023Continue display prompt
+Shell to dos #1       326686019Shell to DOS line 1
+Shell to dos #2       326706019Shell to DOS line 2
+Chat call #1          326726016Chat call line 1
+Chat call #2          326743016Chat call line 2
+Shuttle name prompt   326760019Shuttle name prompt
+Bulletins prompt line 326813021Bulletins prompt line
+Protocol prompt       326835015Protocol prompt
+Chat reason prompt    326851018Chat reason prompt
+List line             326870009List line
+File newscan line     326880017File NewScan line
+Search line           326898011Search line
+Find description #1   326910023Find description line 1
+Find description #2   326934023Find description line 2
+Download line         326958013Download line
+Upload line           326972011Upload line
+View contents line    326984027View interior contents line
+Insuff. file points   327012024Insufficient file points
+UL/DL ratio bad       327037032Upload/Download ratio unbalanced
+P/N file info         327070022P / N file information
+Get filespec #1       327093019Get filespec line 1
+Get filespec #2       327113019Get filespec line 2
+Add to batch queue    327133018Add to batch queue
+Adding to batch line  327152020Adding to batch line
+Reading msgs prompt   327173023Reading messages prompt
+Scanning msgs prompt  327197024Scanning messages prompt
+Defaults on msg entry 327222025Defaults on message entry
+Newscan begins        327248018Newscan beginning
+Newscan ends          327267018Newscan completed
+Sysop defined ? #<#>  327286029SysOp defined user question #
+User editor ? #<#>    327316033User editor string for question #
+String page <#>...    329487030^5String configuration - page
+... of 6.             329518007 of 6^M
+Offline mail hdr      330318030^5Offline Mail Configuration^M
+A. Packet name:       330349028^1A. QWK/REP Packet name :^5
+B. Welcome name:      330378028^1B. Welcome screen name :^5
+C. News name:         330407028^1C. News file name      :^5
+D. Goodbye name:      330436028^1D. Goodbye file name   :^5
+E. Local path:        330465028^1E. Local QWK/REP path  :^5
+F. Ignore time?       330494028^1F. Ignore time for DL  :^5
+G. Max msgs total:    330523028^1G. Max total messages  :^5
+H. Max msgs/base:     330552028^1H. Max msgs per base   :^5
+I. ACS for net REP:   330581028^1I. ACS for Network .REP:^5
+Select: [A-I]         330610033^MEnter selection (A-I) [Q]uit :
+Qwk packet name:      330656017QWK Packet name:
+Welcome scrn path:    330674036Welcome screen path+name [no ext] :
+News file path:       330711031News file path+name [no ext] :
+Goodbye file path:    330743034Goodbye file path+name [no ext] :
+Local QWK path:       330778027Enter local QWK reader path
+Max total msgs:       330806040Maximum total messages in a QWK packet:
+Max msgs/base:        330847039Maximum messages per base in a packet:
+Network config hdr    332040025^5Network configuration^M
+1. Text color         332148037^1     1. Color of standard text : ^5
+2. Quote color        332220037^1     2. Color of quoted text   : ^5
+3. Tear line color    332292037^1     3. Color of tear line     : ^5
+4. Origin color:      332364037^1     4. Color of origin line   : ^5
+A. Net addresses      332066018^1A. Net addresses
+B. Origin line:       332085025^1B. Origin line     : ^5
+C. Strip kludge lines?332114033^1C. Strip IFNA kludge lines : ^5
+D. Strip seenby lines?332186033^1D. Strip SEEN-BY lines     : ^5
+E. Strip origin lines?332258033^1E. Strip origin lines      : ^5
+F. Add tear/origin?   332330033^1F. Add tear/origin line    : ^5
+G. Default echo path: 332402033^1G. Default Echomail path   : ^5
+H. Netmail path       332436033^1H. Netmail path            : ^5
+I. Netmail attribs    332470033^1I. Netmail attributes      : ^5
+J. UUCP Gate address  332513033^1J. UUCP gate address       : ^5
+Select: [A-J,1-4]     332547037^MEnter selection (A-J,1-4) [Q]uit :
+Network addresses hdr 332602021^5Network addresses^M
+<letter>. Address #<#>332627011. Address #
+Select [A-T]          332643026^MEnter selection (A-T) :
+Register me!          375829348pleeeeeeeeeeeeeez!?
+New address           332692011New address
+Enter new origin line 332704021Enter new origin line
+Enter new echo path   332726031Enter new default echomail path
+Enter new netm path   332758022Enter new netmail path
+Netmail attribs:      332781022^1Netmail attributes:
+Attribs: [PCKIHL]     332804036Attributes [PCKIHL] [?]Help [Q]uit :
+New UUCP gate address 332902021New UUCP gate address
+Enter receiver:       339378032Enter name of intended receiver.
+Internet message?     339416029Is this an Internet message?
+Enter name/fido/inet: 339454056Enter a name, a Fidonet address, or an Internet address.
+Not enough credit.    339574051You do not have enough credit to netmail this node!
+Is this correct?      339626017Is this correct?
+Not in nodelist!      339644033That name is not in the nodelist!
+Enter receiver:       339678034^MEnter name of intended receiver.
+Change default flags? 341457030Change default netmail flags?
+Current flags:        341488019^4Current flags: ^5
+Flag to change:       341511016Flag to change:
+Sub level <letter>    344108021^5Subscription level
+New user settings desc344130017New User Settings
+A. Description:       344148020^1A. Description: ^5
+B. New SL:            344169020^1B. New SL     : ^5
+C. New DSL:           344190020^1C. New DSL    : ^5
+D. AR flags:          344211020^1D. AR flags   : ^5
+Nocracksaredone.      756398295at least; not in the way that you think
+E. AC flags:          344232020^1E. AC flags   : ^5
+G. New credit:        344253020^1G. New credit : ^5
+H. Expiration:        344294020^1H. Expiration : ^5
+I. Expire to:         344330020^1I. Expire to  : ^5
+K. AR upgrade:        344361020^1K. AR upgrade : ^5
+L. AC upgrade:        344382020^1L. AC upgrade : ^5
+M. Start menu:        344403020^1M. Start menu : ^5
+Select [A-M]          344424033^MEnter selection (A-M) [Q]uit :
+New description:      344476017New description:
+Enter new SL:         344494014Enter new SL:
+Enter new DSL:        344509015Enter new DSL:
+Toggle AR [<flags>]   344525033Toggle AR Flag? (A-Z) <CR>=Quit [
+Restrictions [<flags>]344592032Restrictions [?]Help <CR>=Quit [
+Enter add'l credit:   344643025Enter additional credit:
+Days till exp:        344669029Enter days until expiration:
+Expiration level:     344699024Enter expiration level:
+Jump to entry:        344753015Jump to entry:
+Enter startout menu:  344769021Enter startout menu:
+Sub. editor prompt:   347046031Subscription editor (?=help) :
+Edit which:           347130032Begin editing at which? (A-Z) :
+File config hdr       347998030^5File section configuration^M
+A. U/D ratio:         348029040^1A. Upload/download ratio system    :^5
+B. File credit:       348070040^1B. File credit system              :^5
+C. Daily limits:      348111040^1C. Daily download limits           :^5
+D. Test/convert:      348152040^1D. Test and convert uploads        :^5
+E. Rewards:           348193040^1E. Credit rewarding system         :^5
+F. Use FILE_ID.DIZ:   348234040^1F. Search for/Use FILE_ID.DIZ      :^5
+G. Recompress:        348275040^1G. Recompress like archives        :^5
+H. reward comp:       348316040^1H. Credit reward compensation ratio:^5
+I. File credit comp:  348359040^1I. File credit compensation ratio  :^5
+J. Base file size:    348406040^1J. Base file size per 1 file credit:^5
+K. Upload refund:     348449040^1K. Upload time refund percent      :^5
+L. To-sysop fbase:    348490040^1L. "To-SysOp" file base            :^5
+M. Autoval?:          348538040^1M. Auto-validate ALL files ULed?   :^5
+N. Max in temp dir:   348579040^1N. Max k-bytes allowed in temp dir :^5
+O. Min in temp dir:   348620040^1O. Min k-bytes to save for resume  :^5
+Select: [A-O]         348661033^MEnter selection (A-O) [Q]uit :
+Percentage to award:  348713038Percentage of file credits to reward:
+New value:            348796013^MNew value:
+New max k-bytes:      348810017New max k-bytes:
+New min resume k-bytes348828024New min resume k-bytes:
+System flagged hdr    350588028^5System flagged functions^M
+A. Handles:           350617033^1A. Handles allowed on system:^5
+Cheapskates don't     873927492Get away with jack shit!
+B. PH# in login:      350651036^1  B. Phone number in logon     :^5
+C. Local security:    350688033^1C. Local security protection:^5
+D. Use EMS:           350722036^1  D. Use EMS for overlay file  :^5
+E. Global trap:       350759033^1E. Global activity trapping :^5
+F. Auto chat:         350793036^1  F. Auto chat buffer open     :^5
+G. Automessage:       350830033^1G. AutoMessage in logon     :^5
+H. Bulletins:         350864036^1  H. Bulletins in logon        :^5
+I. Last few callers:  350901033^1I. Last few callers in logon:^5
+J. User info in login:350935036^1  J. User info in logon        :^5
+K. Strip color:       350972033^1K. Strip color off SysOp Log:^5
+L. Offhook in local:  351006036^1  L. Offhook in local logon    :^5
+M. Trap teleconf:     351043033^1M. Trap Teleconferencing    :^5
+N. Compress numbers:  351077036^1  N. Compress file/msg numbers :^5
+O. UL dupe search:    351114033^1O. UL duplicate file search :^5
+P. Sysop log type:    351148036^1  P. SysOp Log type            :^5
+R. Use BIOS:          351185033^1R. Use BIOS for video output:^5
+S. IEMSI toggle:      351219036^1  S. Use IEMSI handshakes      :^5
+T. New users?:        351256033^1T. Refuse new users         :^5
+U. Swap shell:        351290036^1  U. Swap shell function       :^5
+V. Use shuttle logon: 351327033^1V. Use shuttle logon        :^5
+W. Chat call paging:  351361036^1  W. Chat call paging          :^5
+X. Time limits:       351398033^1X. Time limits are per call :^5
+Quality assurance #1  083747033Quality assured by only the best.
+Y. Sys PW checking:   351432036^1  Y. SysOp Password checking   :^5
+1. Newuser msg to:    351470033^11. New user message sent to :^5
+2. Mins b4 bell:      351508033^12. Mins before timeout bell :^5
+3. Mins b4 timeout:   351542033^13. Mins before timeout      :^5
+Select: [A-Y,1-3]     351576037^MEnter selection (A-Y,1-3) [Q]uit :
+Compressing bases..   351644020Compressing bases...
+De-compressing bases..351665023De-compressing bases...
+Current log type:     351689024Current SysOp Log type:
+New type:             351720012^MNew type:
+Enable/Disable func   351733034[E]nable [D]isable this function:
+Enter value:          351804033^MEnter value for this function:
+Enter new F<#>...     354994015^M^5Enter new F
+... macro now.        355010011 macro now.
+Macro record info.    355022051^5Enter ^Z to end recording. 100 character limit.^M
+Your F<#>...          355081012^M^M^3Your F
+... macro is now <mac>355094016 macro is now:^M
+Is this what you want?355111023Is this what you want?
+Macro saved.          355135012Macro saved.
+Macro not saved.      355148016Macro not saved.
+System variables hdr  355715020^5System variables^M
+A. Max email:         355736033^1A. Max private sent per call:^5
+B. Max feedback:      355770036^1  B. Max feedback sent per call:^5
+C. Max posts:         355807033^1C. Max public posts per call:^5
+D. Max chat attempts: 355841036^1  D. Max chat attempts per call:^5
+E. Max mail waiting:  355878033^1E. Normal max mail waiting  :^5
+F. Cosys max waiting: 355912036^1  F. CoSysOp max mail waiting  :^5
+G. Logins b4 bday chk:355970033^1G. Logins before bday check :^5
+H. Swap shell uses:   356004036^1  H. Swap shell should use     :^5
+I. # of logon attempts356041033^1I. Number of logon attempts :^5
+J. PW change # days:  356075036^1  J. Password change every     :^5
+K. Sysop chat color:  356120033^1K. SysOp chat color         :^5
+L. User chat color:   356154036^1  L. User chat color           :^5
+M. Min space for post:356191033^1M. Min. space for posts     :^5
+N. Min space for UL:  356225036^1  N. Min. space for uploads    :^5
+O. Sysop log # days:  356262033^1O. Back SysOp Log keep days :^5
+P. WFC ScrnSav time:  356296036^1  P. Blank WFC menu minutes    :^5
+R. Alert beep delay:  356333033^1R. Alert beep delay         :^5
+S. # of system calls: 356367036^1  S. Number of system callers  :^5
+T. Min logon baud:    356404033^1T. Minimum logon baud rate  :^5
+U. Min DL baud:       356438036^1  U. Minimum download baud rate:^5
+Select: [A-U,0-9]     356500037^MEnter selection (A-U,0-9) [Q]uit :
+Swap to which:        356571067Swap to which: (D)isk, (E)MS, (X)MS, (N)on XMS extended, or (A)ny?
+System acs hdr        359293023^5System ACS settings^M
+A. Full sysop:        359317025^1A. Full SysOp       :^5
+B. Full Co-Sysop:     359343025^1B. Full Co-SysOp    :^5
+C. Msg base sysop:    359369025^1C. Msg Base SysOp   :^5
+D. File base sysop:   359395025^1D. File Base SysOp  :^5
+E. Sysop PW at logon: 359421025^1E. SysOp PW at logon:^5
+F. Remote PW view:    359447025^1F. Remote PW viewing:^5
+G. Post pub:          359473025^1G. Post public      :^5
+H. Send e-mail:       359499025^1H. Send e-mail      :^5
+I. See anon pub post: 359525025^1I. See anon pub post:^5
+J. See anon e-mail:   359551025^1J. See anon E-mail  :^5
+K. Global anon post:  359577025^1K. Global Anon post :^5
+L. E-mail anon:       359603025^1L. E-mail anon      :^5
+M. See unval files:   359629025^1M. See unval. files :^5
+N. DL unval files:    359655025^1N. DL unval. files  :^5
+O. No UL/DL ratio:    359681025^1O. No UL/DL ratio   :^5
+P. No PCR:            359707025^1P. No PostCall ratio:^5
+R. No DL creds chk:   359733025^1R. No DL credits chk:^5
+S. ULs auto-credited: 359759025^1S. ULs auto-credited:^5
+T. MCI in teleconf:   359785025^1T. MCI in TeleConf  :^5
+U. Chat at any hour:  359811025^1U. Chat at any hour :^5
+V. Send netmail:      359837025^1V. Send Netmail     :^5
+W. Invisible mode:    359863025^1W. "Invisible" Mode :^5
+X. Mail file attach:  359889025^1X. Mail file attach :^5
+Y. Change vote:       359915025^1Y. Change a vote    :^5
+Select: [A-Y]         359941033^MEnter selection (A-Y) [Q]uit :
+Are you sure?         361767036Are you sure this is what you want?
+Use "|" for CR,       361928030Use: "|" for a carriage return
+"^" to toggle DTR.    361992043     "^" to toggle DTR off for 1/4 second^M
+Modem/node cfg hdr    363084028^5Modem/Node Configuration^M
+1. Max baud:          363113026^11. Maximum baud rate: ^5
+2. Port #:            363140026^12. Port number      : ^5
+3. Modem init:        363167026^13. Modem init       : ^5
+4. Modem answer:      363194026^14. Modem answer     : ^5
+5. Modem hangup:      363221026^15. Modem hangup     : ^5
+6. Modem offhook:     363248026^16. Modem offhook    : ^5
+7. COM port locking:  363275026^17. COM port locking : ^5
+8. Digiboard supp't:  363302026^18. Digiboard support: ^5
+9. CTS/RTS flow:      363329026^19. CTS/RTS flow     : ^5
+A. XON/XOFF flow:     363356026^1A. XON/XOFF flow    : ^5
+B. Drop file path:    363383026^1B. Drop file path   : ^5
+C. ACS for this node: 363410026^1C. ACS for this node: ^5
+D. Teleconf normal:   363437026^1D. TeleConf Normal  : ^5
+E. Teleconf anon:     363491026^1E. TeleConf Anon    : ^5
+Cheapskates don't     873927492Get away with jack shit!
+F. Teleconf Global:   363545026^1F. TeleConf Global  : ^5
+G. Teleconf private:  363572026^1G. TeleConf Private : ^5
+H. IRQ string:        363599026^1H. IRQ string       : ^5
+I. Address string:    363626026^1I. Address string   : ^5
+J. Answer on ring:    363464026^1J. Answer on ring   : ^5
+K. Multiring only:    363518026^1K. MultiRing only   : ^5
+R. Modem result codes 363653023^1R. Modem result codes
+Select: [1-9,A-K,R]   363677041^MEnter selection (1-9, A-K, R) [Q]uit :
+Only changed locally. 363743037^7This can only be changed locally.^M
+Select max baud:      363781041Select your modem's maximum baud rate: ^M
+Baud choices:         363823046A:2400 B:9600 C:19200 D:38400 E:57600 F:115200
+Modem speed (a-f):    363870021Modem speed? (A-F) :
+Com port (0-64)       363901017Com port (0-64)?
+Enter drop file path. 363956043Enter path to write door interface files to
+New teleconf string:  364000064Enter new teleconference string. Use pipes or ^'s and mci codes.
+IRQ for %E MCI        364070021IRQ for %E MCI code:
+Address for %C MCI    364092025Address for %C MCI code:
+Answer after ring num:364118026Answer after ring number:
+Result code hdr:      364145038^5Modem configuration - Result Codes^M
+A. NO CARRIER         364184028^1    A. NO CARRIER     : ^5
+B. RELIABLE           364213024^1B. RELIABLE       : ^5
+C. OK                 364238028^1    C. OK             : ^5
+D. RING               364267024^1D. RING           : ^5
+Insure policy         352464327That's what YOU think!!
+Register me!          375829348pleeeeeeeeeeeeeez!?
+E. CALLER ID          364292028^1    E. CALLER ID      : ^5
+F. ID in user note    364321024^1F. ID in user note: ^5
+Your choice:          364362027^MYour choice or [ENTER] :
+Type NO CARRIER string364416025Enter NO CARRIER string:
+Enter RELIABLE string:364444023Enter RELIABLE string:
+Enter OK string:      364468017Enter OK string:
+Enter RING string:    364486019Enter RING string:
+Enter CID string:     364506024Enter caller ID string:
+Colors:               368790011^MColors:^M
+Foreground:           368807019Foreground (0-15):
+Background:           368827018Background (0-7):
+Blinking?             368846010Blinking?
+Example: <ex>         368857011^MExample:
+Move which? (1-<#>)   369370028Move which color scheme? (1-
+Move b4? (1-<#>)      369404035Move before which color scheme? (1-
+Updating user recs..  369440027^MUpdating user records ...
+New color scheme name 370049016New Color Scheme
+<#>. System color <#> 370498015. System color
+System color to change370709027^MSystem color to change :
+Nocracksaredone.      756398295at least; not in the way that you think
+Is this correct?      370750017Is this correct?
+;Quick note: These are in the format <cmdkey> <description>
+A Border              371125008A Border
+B File name field     371134017B File Name field
+C Crs field           371152011C Crs Field
+D Size field          371164012D Size field
+E Desc field          371177012E Desc Field
+F Area field          371190012F Area field
+G File name           371203011G File name
+H File points         371215013H File Points
+I File size           371229011I File size
+J File desc           371241011J File desc
+K Extended            371253010K Extended
+L Status flags        371264014L Status flags
+M Uploader            371279010M Uploader
+N Search match        371290014N Search Match
+Color to change:      371305018Color to change :
+Is this correct?      371341017Is this correct?
+A Border              372760008A Border
+B Msg # field         372769015B Msg Num field
+C Sender field        372785014C Sender Field
+D Receiver field      372800016D Receiver field
+E Subject field       372817015E Subject Field
+F Date field          372833012F Date field
+G Msg num             372846009G Msg Num
+H Msg sender          372856012H Msg Sender
+I Msg receiver        372869014I Msg Receiver
+J Subject             372884009J Subject
+K Msg date            372894010K Msg Date
+L Status flags        372905014L Status flags
+Color to change:      372920018Color to change :
+Is this correct?      372954017Is this correct?
+A Border              373511008A Border
+B Base num field      373520016B Base Num field
+C Base name field     373537017C Base Name Field
+D Scan indicator      373555016D Scan Indicator
+E Base number         373572013E Base Number
+F Base name           373586011F Base Name
+Color to change:      373598018Color to change :
+Is this correct?      373626017Is this correct?
+A Border              373945008A Border
+B Base num field      373954016B Base Num field
+C Base name field     373971017C Base Name Field
+D Scan indicator      373989016D Scan Indicator
+E Base number         374006013E Base Number
+F Base name           374020011F Base Name
+Quality assurance #1  083747033Quality assured by only the best.
+Color to change:      374032018Color to change :
+Is this correct?      374060017Is this correct?
+A Border              374917008A Border
+B User name field     374926017B User name field
+C Location field      374944016C Location field
+D Gender field        374961014D Gender field
+E Last call field     374976017E Last call field
+F Title               374994007F Title
+G User name           375002011G User name
+H Location            375014010H Location
+I Gender              375025008I Gender
+J Last call           375034011J Last Call
+Color to change?      375047018Color to change :
+Is this correct?      375079017Is this correct?
+A Border              376140008A Border
+B Node num field      376149016B Node num field
+C Username field      376166017C User name field
+D Location field      376184016D Location field
+E Activity field      376201016E Activity field
+Cheapskates don't     873927492Get away with jack shit!
+F Available field     376218017F Available field
+M S:A field           376236011M S:A field
+N Min field           376248011N Min field
+G Node number         376260013G Node number
+H User name           376274011H User name
+I Location            376286010I Location
+J Activity            376297010J Activity
+K Available           376308011K Available
+L Blank               376320007L Blank
+O Sex:Age             376328009O Sex:Age
+P Minutes             376338009P Minutes
+Color to change:      376348018Color to change :
+Is this correct?      376386017Is this correct?
+A Border              377329008A Border
+B Caller num field    377338018B Caller num field
+C Login field         377357013C Login field
+D User name field     377371017D User name field
+E Location field      377389016E Location field
+F Baud field          377406012F Baud field
+G Caller number       377419015G Caller number
+H Login time          377435012H Login time
+I User name           377448011I User name
+J Location            377460010J Location
+K Baud rate           377471011K Baud rate
+L Title               377483007L Title
+M New user flag       377491015M New User flag
+Color to change:      377508018Color to change :
+Is this correct?      377543017Is this correct?
+A Border              378642008A Border
+B Base num field      378651016B Base num field
+C Base name field     378668017C Base name field
+D Short field         378686013D Short field
+E Echo field          378700012E Echo field
+F Total field         378713013F Total field
+G New field           378727011G New field
+H Your field          378739012H Your field
+I Size field          378752012I Size field
+J Title               378765007J Title
+K Base number         378773013K Base Number
+L Base name           378787011L Base name
+M Short               378799007M Short
+N Echo flag           378807011N Echo flag
+Nocracksaredone.      756398295at least; not in the way that you think
+O Total msgs          378819012O Total Msgs
+P New msgs            378832010P New Msgs
+R Your msgs           378843011R Your Msgs
+S Msgs size           378855011S Msgs size
+Color to change:      378867018Color to change :
+Is this correct?      378907017Is this correct?
+A Border              380042008A Border
+B Number field        380051014B Number field
+C Date/Time field     380066017C Date/Time field
+D Sender field        380084014D Sender field
+E Subject field       380099015E Subject field
+F Number              380115008F Number
+G Date/Time           380124011G Date/Time
+H Sender              380136008H Sender
+I Subject             380145009I Subject
+Color to change:      380156018Color to change :
+Is this correct?      380187017Is this correct?
+Edit which (1-<#>)    380691027Begin editing at which? (1-
+Color scheme          380724013Color Scheme
+1. Description:       380743023^11. Description   : ^5
+2. System Colors:     380767021^12. System colors :
+3. File listings      380789018^13. File Listings
+4. Message listings   380808021^14. Message Listings
+5. File area listings 380830023^15. File Area Listings
+6. Msg area listings  380854026^16. Message Area Listings
+7. User listings      380881018^17. User Listings
+8. Node listing       380900026^18. Node Activity Listing
+9. Last callers list  380927025^19. Last Callers Listing
+A. Offline mail screen380953024^1A. Offline Mail screen
+B. Private mail list  380978025^1B. Private Mail Listing
+Edit menu prompt:     381004021Edit menu (?=Help) :
+Description           382218011Description
+Color scheme bar      382253064^4==:==============================:============================
+Color scheme prompt   382323033^MColor Scheme editor (?=Help) :
+Board # to del (1-<#>)382452027Board number to delete? (1-
+Updating user recs..  382485025Updating user records ...
+Insert b4? (1-<#>)    382511035Scheme number to insert before? (1-
+Highest accs mbase.   386095034^MHighest accessible message base.
+Lowest accs mbase.    386130033^MLowest accessible message base.
+Chg msg base:         386171043^1Change message base (^5?^1=^5List^1) : ^3
+No automessage avail  386923027^0No AutoMessage available.
+(Posted anonymously)  386951021 (Posted Anonymously)
+Anonymous automsg name386973009Anonymous
+No write automsgs     387772045You are restricted from writing automessages.
+Nothing saved         387840014Nothing saved.
+Post anonymously?     387864018Post Anonymously?
+Nothing to reply to.  388567020Nothing to reply to.
+No rep to anon automsg388606036Can't reply to an anonymous message!
+Anon: Error opening mb389304034Anon: Error opening message bases.
+Post anonymously?     389339018Post anonymously?
+Send anonymously?     389358018Send anonymously?
+Any name post.        389446045^MYou can post under any name in this base.^M
+Attach a file?        390395031Attach a file to this message?
+File name:            390427013^MFile name:
+That file dont exist  390441025That file does not exist.
+Can't use file name   390467030You cannot use that file name.
+Delete file upon rec? 390502026Delete file upon receipt?
+Message bar (ansi)    391336083|08 ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ^1
+Message bar (non-ansi)391420079[---:----:----:----:----:----:----:----|----:----:----:----:----:----:----:---]
+First line to quote:  397347033^MFirst line to quote [?=Help] :
+Quote help            397388066^M^1<^3Q^1>uit, <^3H^1>eader, <^3?^1>Help, or first line to quote.
+Last line to quote:   397459021Last line to quote :
+Nothing to replace!   401915021^7Nothing to replace!
+Replace string hdr    401937020^5Replace string -^M
+On which line (1-<#>) 401958017On which line (1-
+Invalid line #        401981022^7Invalid line number.
+Original line:        402004018^M^3Original line:
+Enter string to rep:  402023028^M^4Enter string to replace:
+String not found.     402054019^7String not found.
+Enter replacement str:402074027^4Enter replacement string:
+Edited line:          402102016^M^3Edited line:
+Register me!          375829348pleeeeeeeeeeeeeez!?
+Enter file to import: 403031037Enter file to import [Enter=Upload]:
+Not enough disk space 403661042^MNot enough disk space to save a message.
+Msg write cmd prompt: 403792029^MCommand (^5?^4=^5Help^4) :
+Are you sure?         403969014Are you sure?
+Can't abort message.  403984032^MYou cannot abort this message.
+Backed up to line <#> 404030020^0Backed up to line
+List w/ line #'s?     404190036^M^7List message with line numbers?
+Not replying to msg   404239038^0You are not replying to a message.^M
+Quoting complete.     404278030^0Quoting complete.  Continue:
+Last line deleted.    404309033^0Last line deleted.  Continue:^1
+Used up max lines     404345046You have used up your maximum amount of lines.
+Msg editor prompt:    404392036^3Message editor (^0?^3=^0help^3) :
+Abort message?        404515015Abort message?
+Too many lines!       404531017^7Too many lines!
+Delete which (1-<#>)  404563021Delete which line (1-
+Ins b4 (1-<#>)        404590028Insert before which line (1-
+New line:             404619011^3New line:
+Replace which (1-<#>) 404651026Line number to replace (1-
+Old line:             404678013^M^3Old line:
+Enter new line:       404692017^3Enter new line:
+Quality assurance #1  083747033Quality assured by only the best.
+Error saving message  408948021Error saving message.
+24 hour time          415903064^M^MAll entries in 24 hour time.  Hour: (0-23), Minute: (0-59)^M
+Starting time:        415968014Starting time:
+Hour:                 415983011  Hour   :
+Minute:               415995025                Minute :
+Ending time:          416021016^MEnding time:
+Main config hdr       416552026^5Main BBS Configuration^M
+A. BBS name/number    416579025^1A. BBS name/number  :^5
+B. Sysop's name       416616025^1B. SysOp's name     :^5
+C. [unused]           416642027^1C.                     ^5
+D. Sysop chat hours   416677025^1D. SysOp chat hours :^5
+E. Minimum baud hours 416703027^1E. Minimum baud hours :^5
+F. Regular DL hours   416746025^1F. Regular DL hours :^5
+G. Minimum baud DL    416772027^1G. Minimum baud DL hrs:^5
+H. pw's/I. prevent wrn416800066^1H. BBS Passwords                     ^1I. Pre-event warning  :^5
+J. Startout menu      416876025^1J. Startout menu    :^5
+K. Bulletin prefix    416902027^1K. Bulletin Prefix    :^5
+L. Multinode support  416930025^1L. Multinode support:^5
+M. Network mode       416956027^1M. Network mode       :^5
+0. Main data files dir416987033^1 0. Main data files dir.    :^5
+1. Misc files dir     417021033^1 1. Miscellaneous Files dir.:^5
+2. Msg file dir       417055033^1 2. Message file storage dir:^5
+3. Menu file dir      417089033^1 3. Menu file directory     :^5
+4. Nodelist dir       417123033^1 4. Nodelist (Version 7) dir:^5
+5. Log files dir      417157033^1 5. Log files/trap files dir:^5
+6. Temp dir           417191033^1 6. Temporary directory     :^5
+7. Protocols dir      417225033^1 7. Protocols directory     :^5
+8. Archivers dir      417259033^1 8. Archivers directory     :^5
+9. File attach dir    417293033^1 9. File attach directory   :^5
+R. Ram drive dir      417327033^1 R. RAM drive/multinode path:^5
+Select: [A-M,R,0-9]   417361039^MEnter selection (A-M,R,0-9) [Q]uit :
+New BBS name:         417427014New BBS name:
+New BBS phone #:      417442024^MNew BBS phone number:
+New sysop name:       417467016New SysOp name:
+Only change local     417484035^7This can only be changed locally.
+Declare chat hours?   417520035Do you want to declare chat hours?
+Declare DL hours?     417556039Do you want to declare download hours?
+System Passwords:     417596017System Passwords:
+A. Sysop Password:    417614028  A. SysOp password        :
+B. New User Password: 417643028  B. New user password     :
+C. Low Baud Password: 417672028  C. Baud override password:
+Change (A-C):         417701017^MChange (A-C) :
+New Sysop Password:   417725020New SysOp password:
+New newuser password: 417746023New new-user password:
+New min baud password:417770041New minimum baud rate override password:
+Declare min baud logon417814067Do you want to declare hours people at the minimum baud can logon?
+Declare min baud DL?  417882067Do you want to declare hours people at minimum baud can download ?
+New warn time [<def>] 417950028New pre-event warning time [
+Startout menu:        417984028Menu to start all users at:
+Default bull. prefix: 418013025Default bulletin prefix:
+Please restart system.418039026Please restart the system.
+Only change local     418066028Can only be changed locally.
+Local security on?    418095041Do you want local security to remain on?
+Restrictions:         421545019^M^3Restrictions:^M
+;Quick note: listed <acsletter><description>
+Logon once per day    421565024LCan logon ONLY once/day
+Cant page             421590017CCan't page SysOp
+Unvalidated posts     421608025VPosts marked unvalidated
+No user listing       421634017UCan't list users
+Can't add to BBS list 421652022ACan't add to BBS list
+Nocracksaredone.      756398295at least; not in the way that you think
+Cant send anon        421675022*Can't post/send anon.
+Cant post at all      421698018PCan't post at all
+Cant send email       421717017ECan't send email
+Cant vote             421735011KCan't vote
+Manditory mail delete 421747023Manditory mail deletion
+Special:              421771014^M^3Special:^M
+No UL/DL ratio        4217860211No UL/DL ratio check
+No PCR                4218080252No post/call ratio check
+No credits check      4218340173No credits check
+No deletion           4218520254Protection from deletion
+RG user editor <#>    423132026^5Renegade User Editor ^1[
+User on node <#>      423166026^8Note: ^3User is on node
+A. User name:         423196019^1A. User name : ^3
+L. Security:          423216020^1 L. Security  : ^3
+B. Real name:         423237019^1B. Real name : ^3
+M. D Security:        423257020^1 M. D Security: ^3
+C. Address:           423278019^1C. Address   : ^3
+N. AR:                423298011^1 N. AR:^3
+D. City/State:        423312019^1D. City/State: ^3
+O. AC:                423332011^1 O. AC:^3
+E. Zip Code:          423344019^1E. Zip code  : ^3
+P. Sex/Age:           423364020^1 P. Sex/Age   : ^3
+Insure policy         352464327That's what YOU think!!
+F. Sysop Note:        423390019^1F. SysOp note: ^3
+R. Phone num:         423410020^1 R. Phone num : ^3
+G. <sys question 1>   423431005^1G.
+T. Last/1st:          423442020^1 T. Last/1st  : ^3
+H. <sys question 2>   423463005^1H.
+V. Locked out:        423469020^1 V. Locked out: ^3
+I. <sys question 3>   423507005^1I.
+W. Password:          423513020^1 W. Password  : ^3
+[Not shown]           423534013^7[Not Shown]
+J. Status:            423616019^1J. Status    : ^3
+X. <unused>           423636020^1 X.           : ^3
+K. QWK setup:         423657019^1K. QWK setup : ^3
+Y. Start Menu:        423677020^1 Y. Start Menu: ^3
+General text          428628012General text
+Search ACS            428641010Search ACS
+User SL               428652007User SL
+User DSL              428660008User DSL
+User AR flags         428669013User AR flags
+User AC flags         428683013User AC flags
+User status           428697011User status
+Days since last on    428709018Days since last on
+Days since first on   428728019Days since first on
+# of calls            428748015Number of calls
+User age              428764008User age
+Cheapskates don't     873927492Get away with jack shit!
+User gender           428773011User gender
+PCR                   428785018# 1/10's call/post
+UL/DL k ratio         428804011#k DL/1k UL
+UL/DL ratio           428816010# DLs/1 UL
+Search hdr            429742022^M^5Search Criterea:^1
+Inactive!             429771009Inactive!
+SL ... <sl>           429783008 SL ...
+DSL ... <dsl>         429796009 DSL ...
+days ... <days>       429831010 days ...
+calls ... <calls>     429848011 calls ...
+years ... <age>       429867011 years ...
+Range:                433542007Range:
+Lower limit [<def>]   433553013Lower limit [
+Upper limit [<def>]   433572013Upper limit [
+General text ["<def>"]434278015General text ["
+Search ACS ["<def>"]  434299013Search ACS ["
+Lower limit [<#>]     434313013Lower limit [
+Upper limit [<#>]     434332013Upper limit [
+Which AR flag:        434346027Which AR flag? <CR>=Quit :
+Restrictions [<def>...434402014Restrictions [
+...] Help/quit        434417018] [?]Help [Q]uit :
+Current flags:        434455019^4Current flags: ^3
+Toggle:               434475018Toggle (?=help) :
+Are you sure?         434598014Are you sure?
+Can't ren del'd users 438467027Can't rename deleted users.
+Enter new name:       438495018^MEnter new name:
+Illegal name.         438514013Illegal name.
+Register me!          375829348pleeeeeeeeeeeeeez!?
+Restrictions [<def>...438817014Restrictions [
+...] Help/quit        438832018] [?]Help [Q]uit :
+You can't change that!438870022You can't change that!
+Enter new SL:         439121014Enter new SL:
+Lower your own SL?    439136025Lower your own SL level?
+Call records hdr      439902017^5Call records:^1
+(1)Total Calls:       439920016(1)Total calls:
+(2)Total time on:     439937021 (2)Total time on:
+(3)Calls today:       439959016(3)Calls today:
+(4)Time left today:   439976021 (4)Time left today:
+(5)Ill. logons:       439998016(5)Ill. logons:
+(6)Time bank:         440015015 (6)Time Bank:
+Select: [1-6,MFPSQ]   440034050Select: (1-6) [M]ail [F]ile [P]refs [S]ubs [Q]uit:
+Mail records hdr      440098017^5Mail records:^1
+(1)Pub posts:         440116015(1)Pub. posts:
+(2)Priv. posts:       440132018 (2)Priv. posts:
+(3)Fback sent:        440151015(3)Fback sent:
+(4)Mail waiting:      440167018 (4)Mail waiting:
+Select: [1-4,CFPSQ]   440186052^MSelect: (1-4) [C]all [F]ile [P]refs [S]ubs [Q]uit:
+Quality assurance #1  083747033Quality assured by only the best.
+File records hdr      440250017^5File records:^1
+(1)# of DLs:          440268016(1)# of DLs   :
+(2)DL k:              440285016 (2)DL k      :
+(3)# of ULs:          440302016(3)# of ULs   :
+(4)UL k:              440319016 (4)UL k      :
+(5)# DLs today:       440336016(5)# DLs today:
+(6)DL k today:        440353016 (6)DL k today:
+Select [1-6,CMPSQ]    440370052^MSelect: (1-6) [C]all [M]ail [P]refs [S]ubs [Q]uit:
+Pref records hdr      440436023^5Preference records:^1
+(1)Emulation:         440504013(1)Emulation:
+(2)Clr Scrn:          440518013 (2)Clr Scrn:
+(3)Pause:             440542009(3)Pause:
+(4)Color:             440574013(4)Color    :
+(5)Editor:            440588013 (5)Editor  :
+Select [1-5,CMFSQ]    440612050^MSelect (1-5) [C]all [M]ail [F]ile [S]ubs [Q]uit:
+Sub records hdr       440675025^5Subscription records:^1
+(1) Credit:           440701012(1) Credit:
+(2) Debit:            440714012 (2) Debit:
+(3) Expires:          440727014 (3) Expires:
+(4) Expire to:        440742016 (4) Expire to:
+Select: [1-4,CMPFQ]   440759052^MSelect: (1-4) [C]all [M]ail [P]refs [F]ile [Q]uit:
+New value:            440823011New value:
+New exp. date:        440835021New expiration date:
+Level to expire to:   440866020Level to expire to:
+Select item:          444171015^MSelect item:
+User currently del'd. 444745028User is currently deleted.^M
+Restore user?         444774019Restore this user?
+Protected from del    444794053Access denied - This user is protected from deletion.
+*DELETE* this user?   444875020*DELETE* this user?
+Validated on <date>   444896022You were validated on
+User locked out #1    444923025User is now locked out.^M
+User locked out #2    444949056Each time the user logs on from now on, a text file will
+User locked out #3    445006041be displayed before user is terminated.^M
+Enter lockout fname:  445048024Enter lockout filename:
+User not locked out.  445098039User is no longer locked out of system.
+Which AR flag?        445138027Which AR flag? <CR>=Quit :
+Nocracksaredone.      756398295at least; not in the way that you think
+New sysop note:       445236016New SysOp Note:
+New laston date:      445257038New Laston date, in the form MM/DD/YY:
+Enter new password    445305019Enter new password.
+Enter new start menu  445325024Enter new startout menu.
+1. Trap status:       445402024^M^11. Trapping status:
+2. Auto chat state:   445478022^12. Auto-chat state:
+3. Sysop log state:   445535022^13. SysOp Log state:
+4. Alert:             445575022^14. Alert          :
+Select [1-4,Q]        445598024^MSelect (1-4,Q=Quit) :
+Trap? [<def>]         445631021Trap user activity? [
+Log to file? [<def>]  445658023Log to separate file? [
+Auto-chat? [<def>]    445682024Auto-chat buffer open? [
+Sep buf file? [<def>] 445707023Separate buffer file? [
+Sep sys log? [<def>]  445731030Output SysOp Log separately? [
+Are you calling from: 453571023^1Are you calling from:
+1. U.S.               453595018  1. United States
+2. Canada             453614011  2. Canada
+3. Other country      453626018  3. Other country
+Select [1-3]          453645017^MSelect (1-3) :
+Current archive type  453838024Current archive type: ^5
+Type to use:          453866032Archive type to use? (?=List) :
+Own replies?          4539030461Do you want your own replies in your QWK pack
+New files?            453954055Would you like a new files listing in your QWK packet?
+Private mail?         454010050Do you want your private mail in your QWK packet?
+Enter street address  454471028^1Enter your street address.
+Cheapskates don't     873927492Get away with jack shit!
+Enter D.O.B.          454754037^1Enter your date of birth (mm/dd/yy)
+City + State abbrev   455105037Enter new city & state abbreviation:
+Enter only city       455160030^1Please enter only your city:
+Enter only city name  455193030^M^1Enter only your city name.
+Now enter <type>...   455224017^1Now enter your
+...abbreviation:      455242015 abbreviation:
+First enter only city 455261034^1First enter your city name only:
+Now enter country     455296032^M^1Now enter your country name:
+Too long!             455329045Too long!  Max total length is 30 characters.
+Enter handle/name #1  456442046^1Enter your handle, or your real first & last
+Enter handle/name #2  456489035names if you don't want to use one.
+Enter name:           456525031^1Enter your first & last name.
+No handles:           456557024Handles are not allowed.
+BOTH names!           456586042^M^1Please enter your first AND last name!
+Name in use.          456629024^M^7That name is in use.
+Enter phone number:   457928025^1Enter your phone number
+Please enter curr. pw:458449039^5Please enter your current password.^M
+Password:             458489014^0Password: ^5
+Wrong!                458504010^MWrong!^M
+Enter password #1     458515050^M^1Enter your desired password for future access.
+Enter password #2     458566044It should be 4 to 20 characters in length.^M
+Cheapskates don't     873927492Get away with jack shit!
+Password:             458611010Password:
+Must be 4 or more:    458622039^7Must be at least 4 characters long.^M
+Must be 20 or less:   458662044^7Must be no more than 20 characters long.^M
+Must be different:    458707043^7Must be different from your old password!
+Can't use that pw:    458751031^7You cannot use that password!
+Enter pw again        458783050Please enter your password again for verification.
+Password:             458834012^MPassword:
+Passwords dont match  458847027^MPasswords do not match.^M
+PW changed.           458875021^MPassword changed.^M
+Screen width [<def>]  460477034How wide is your screen (32-132) [
+Lines/page [<def>]    460517032How many lines per page (4-50) [
+New sex:              460761016New sex (M,F) :
+Your sex:             460783017Your sex (M,F) ?
+Enter zipcode: [us]   460979032^1Enter your zipcode: #####-####
+Enter zipcode: [can]  461025040^1Enter your postal code (LNLNLN format)
+Enter zipcode: [for]  461073025^1Enter your postal code:
+Forward desc #1       461514080^MIf you forward your mail, all Email sent to your account will be redirected to
+Forward desc #2       461595075that person.  Enter the user's name, or just hit [Enter] to deactivate mail
+Forward desc #3       461671011forwarding.
+Forwarding off        461685023Forwarding deactivated.
+Forwarding to:        461709020Forwarding mail to:
+Can't fwd to user.    461733034Sorry, can't forward to that user.
+Mailbox now open.     462192017Mailbox now open.
+Mail forwarding ended.462213022Mail forwarding ended.
+Close mailbox?        462236035Do you want to close your mailbox?
+Mailbox now closed.   462272019Mailbox now closed.
+You WONT receive mail.462292032^5You will NOT recieve mail now.
+Forward mail?         462325034Do you want to forward your mail?
+Which term emulation? 462825044^1Which terminal emulation do you support?^M
+(1) None              462870008(1) None
+(2) Ansi              462879008(2) Ansi
+(3) Avatar            462888010(3) Avatar
+(4) VT-100            462899010(4) VT-100
+(5) RIP Graphics      462910018(5) RIP Graphics^M
+Selection:            462929012Selection :
+Support ansi fallback?462948050Does your terminal program support ANSI fallback?
+Auto-detect?          462999055Would you like this to be auto-detected in the future?
+Ansi color disabled.  463926020Ansi color disabled.
+Ansi color enabled.   463947019Ansi color enabled.
+Pause on screen dis   464160024Pause on screen disabled
+Pause on screen en    464185023Pause on screen enabled
+FS editor req's ansi  464418048You must use ansi to use the full screen editor.
+FS editor disabled    464467028Full screen editor disabled.
+FS editor enabled     464496027Full screen editor enabled.
+Full line input.      464705016Full line input.
+Hot key input.        464722014Hot key input.
+Screen clear off.     464946020Screen clearing off.
+Screen clear on.      464967019Screen clearing on.
+Expert mode off.      465103015Expert mode on.
+Expert mode on.       465119016Expert mode off.
+Available schemes:    465355026Available color schemes:^M
+Please select a scheme465390035^M^MPlease select a color scheme :
+Screen clearing?      465867029Do you want screen clearing?
+Pauses?               465897025Pause after each screen?
+: errors in decomp    467845030: Errors during de-compression
+: errors in comp      468170027: Errors during compression
+Function aborted!     466617017Function aborted!
+Convertin arcv #1     468989031Converting archive - stage one.
+Errors in decomp      469030024Errors in decompression!
+Convertin arcv #2     469055031Converting archive - stage two.
+Errors in comp        469087022Errors in compression!
+Insure policy         352464327That's what YOU think!!
+Nocracksaredone.      756398295at least; not in the way that you think
+Avail archive formats:469986027Available archive formats:
+No arcv formats.      470016029No archive formats available.
+Unsup'd archive format470215029Unsupported archive format.^M
+Extract to temp dir:  470290036^MExtract to temporary directory -^M
+Already in TEMP:      470327017Already in TEMP:
+The limit is <#>k.    470388013The limit is
+You have exceeded it. 470411033^MYou have exceeded this limit.^M
+Please remove files #1470445054Please remove some files from the TEMP directory using
+Please remove files #2470500047the user-archive command to free up some space.
+Filename:             470548012^MFilename:
+Quality assurance #1  083747033Quality assured by only the best.
+Invalid filename.     470561019^MInvalid filename.
+No acs to file        470587047You do not have access to manipulate that file.
+File not found "<name>470635017File not found: "
+Register me!          375829348pleeeeeeeeeeeeeez!?
+Error accessing       470655021Error accessing file.
+Unlisted file.        470677014Unlisted file.
+Unsup'd archive format470692029^MUnsupported archive format.
+Options #1            470722051^MYou can (C)opy this file into the TEMP directory,
+Options #2a           470774051or (E)xtract files FROM it into the TEMP directory.
+Which: [c/e]          470826023^MWhich? (CE,Q=Quit) :
+Options #2b           470854036but you can't extract files from it.
+Which: [c]            470891022^MWhich? (C,Q=Quit) :
+Extract files prompt: 470917044Extract files ([Enter]=All,V=View,Q=Quit) :
+Illegal filespec.     470974017Illegal filespec.
+Errors in decomp!     471032028Errors in decompression!^M^J
+Progress: <prog>      471097012^5Progress:
+Copy successful.      471110021^5 - Copy successful.
+Unsuc: insuff space   471132041^7Copy unsuccessful - insufficient space!
+Unsuccessful.         471174020^7Copy unsuccessful!
+Archive desc #1       471225045^MUse the user archive menu command to access
+Archive desc #2       471271028files in the TEMP directory.
+Archive prompt:       474175029Temp archive menu (?=help) :
+Archive name:         474315016^MArchive name:
+Archive fmat not sup'd474339031^MArchive format not supported.
+File mask:            474371011File mask:
+Illegal file mask.    474383018Illegal file mask.
+Errors in compression.474435024Errors in compression!^M
+Filename:             474479012^MFilename:
+Illegal filename.     474492017Illegal filename.
+Temp file             474510014Temporary file
+Temp dir              474525019Temporary directory
+Note: #1              474545067^M^5REMEMBER: If you delete this file from the temporary directory,
+Note: #2              474613056you will not be able to download it in your batch queue.
+File mask:            474674013^MFile mask:
+File not found.       474688015File not found.
+Begin where? (0-<#>)  479282027Begin editing at which? (0-
+!. Type/prot:         479352018^1!. Type/protocl:
+Cheapskates don't     873927492Get away with jack shit!
+1. Keys/desc:         4794330171. Keys/descrip:"
+2. ACS Req'd:         4794610182. ACS required: "
+3. Temp. Log:         4794820173. Temp. log   :
+4. <U>L log:          4795000174. <U>L log    :
+   <D>L log:          479518017   <D>L log    :
+5. <U>L cmd:          4795360175. <U>L command:
+Quality assurance #1  083747033Quality assured by only the best.
+   <D>L cmd:          479554017   <D>L command:
+6. Codes mean:        4795970166. Codes mean  :
+7. <U>L codes:        4796140167. <U>L codes  :
+   <D>L codes:        479639016   <D>L codes  :
+E. Environ. cmd:      479656017E. Environ. cmd:
+I. DL File list:      479674017I. DL File list:
+C. Max DOS chrs:      479692016C. Max DOS chrs:
+P. Log pos: Fname...  479709030   P. Log position: Filename:
+...Status: <#>  <#>^  479740011 - Status:
+Edit menu prompt:     479752023^MEdit menu (?=help) :
+1. Prot active:       479797024^11. Protocol active   :
+<#>. is batch prot:   4798220222. Is batch protocol :
+<#>. is res. prot:    4798450223. Is resume protocol:
+<#>. is bidir:        4798680224. Is bidirectional  :
+<#>. for REL only:    4798910225. For reliable only :
+Select: [1-5,Q]       479914024^MSelect (1-5,Q=Quit) :
+New cmd keys:         479947018New command keys:
+New description:      479966018^MNew description:
+New ACS:              479987009New ACS:
+New temp. log:        479997014New temp. log:
+New perm. UL log:     480012025New permanent upload log:
+New perm. DL log:     480038027New permanent download log:
+Type: <C,E,O>         480070035Type: (C)ommand (E)xternal (O)ff :
+Ascii/batch/edit/next 480111039(A)scii (B)atch (E)dit (N)ext (Q)uit :
+New upload cmdline:   480185023New upload commandline:
+New download cmdline: 480209025New download commandline:
+Set to null string:   480235020Set to NULL string?
+New upload codes:     480256019New upload codes:^M
+New DL codes:         480293021New download codes:^M
+New max DOS chrs:     480315033New max DOS chrs in commandline:
+New env setup:        480349034New environment setup commandline:
+New batch file list:  480384020New batch file list:
+New Fname pos [<def>] 480405030New "Filename" log position? [
+New stat pos [<def>]  480441028New "Status" log position? [
+Move which (0-<#>)    484924024Move which protocol? (0-
+Move b4 (0-<#>)       484954031Move before which protocol? (0-
+Protocol hdr          485428037^3 NNN^4:^3ACS       ^4:^3Description
+Protocol bar          485466079^4 ===:==========:=============================================================
+Prot editor prompt:   485565029^MProtocol editor (?=help) :
+Prot to del (0-<#>)   485698023Protocol to delete? (0-
+Protocol: <name>      485727014^MProtocol: ^4
+Delete this?          485742013Delete this?
+Insert b4 (0-<#>)     485777030Protocol to insert before? (0-
+That menu is not avail487649027That menu is not available.
+Emergency shutdown.   487710050Emergency System shutdown. Please call back later.
+Critical error        487761029^MCritical error; hanging up.
+Menu hdr              490532064^0NN^4:^3Command       ^4:^3Fl^4:^3ACS      ^4:^3Cmd^4:^3options
+Menu bar              490597077^4==:==============:==:==========:==:========================================
+Menu toggle hdr #1    490688027^3NN:KK-Typ-Options
+Menu toggle bar #1    490716027^4==:======================
+Menu toggle hdr #2    490744026 NN:KK-Typ-Options
+Menu toggle bar #2    490771026 ==:======================
+No commands           490801028**No Commands on this menu**
+Path bad or missing   496757028This path is bad or missing.
+Illegal pathname err  496799024^MIllegal pathname error
+That path doesnt exist496826025That path does not exist!
+Bad/missing STRING.DAT498768075Bad or missing STRING.DAT.  Obtain a new one from the distribution package.
+Regen user index      498886039Regenerating corrupted user index:   0%
+Bad/miss CONFRENC.DAT 498944041Bad or missing CONFRENC.DAT - creating...
+Bad/missing EVENTS.DAT499031039Bad or missing EVENTS.DAT - creating...
+Bad events file fmat  499091032Warning: Bad events file format.
+Set the date & time.  503796027Please set the date & time.
+Share.EXE not loaded  503824060WARNING: SHARE.EXE should be loaded for multinode operation.
+No node # specified   503885056WARNING: No node number specified. Defaulting to node 1.
+Invalid user #        511074020Invalid user number.
+Answers file not found511100023Answers file not found.
+User hasn't answered  511145046That user has not completed the questionnaire.
+Enter filename:       511877016Enter filename:
+No .ASW file: "<name>"511899033InfoForm answer file not found: "
+Enter name of user:   511935036Enter the name of the user to view:
+List entire ASW file? 511974025List entire answer file?
+UL name<>user name!   513312039Uploader name does not match user name!
+Can't remove credit   513352033Cannot remove credit from user.^M
+Awarding ul credit:   513386027^5Awarding upload credits:
+Taking away credit:   513414030^5Taking away upload credits:
+Credits for file:     514004041Credits for file ([Enter]=Skip,Q=Quit) :
+Edit files:           514084022Edit files (?=help) :
+New filename:         514333014New filename:
+Can't use that fname. 514348024Can't use that filename.
+Enter new desc.       514373021Enter new description
+Change file size:     514397018Change file size^M
+New file size:        514416024New file size in bytes:
+New UL'er:            514441033New user name/# who uploaded it:
+User not exist        514475025This user does not exist.
+New ul file date:     514501022New upload file date:
+New # of dl's         514533025New number of downloads:
+New amount of creds   514559029Enter new amount of credits:
+Are you sure?         514589014Are you sure?
+Erase file also?      514626017Erase file also?
+Remove from <name>... 514660014Remove from ^5
+...'s ratio?          514675012^7's ratio?
+Move file prompt:     514688043Move file (Q=Quit,?=List,#=Move-to base) :
+Can't move it there   514736020Can't move it there.
+File already there!   514757026^MFile is already there!^M
+Moving file to <area> 514784017^5Moving file to
+Same-name file exists 514805045There is already a file by that name there.^M
+Overwrite it?         514851014Overwrite it?
+Dir paths same        514866040^7No move: directory paths are the same.
+Progress: <prog>      514907012^5Progress:
+Move failed.          514920013^7Move failed
+ - insuff space       514934029 - Insuffient space on drive
+File dont exist.      514966029File does not actually exist.
+Moving file record... 514996024^5Moving file record ...
+File has no desc.     515054033File has no internal description.
+No extended desc.     515088047There is no extended description for this file.
+Create one?           515136012Create one?
+Ext edit (1-<#>)      515155018Extended edit: (1-
+Enter new line:       515248017Enter new line:^M
+Set to NULL string?   515268020Set to NULL string?
+Change pointer val.   515289021Change pointer value.
+Pointer range 0-<#>   515311017Pointer range: 0-
+(-1 desc)             515329062(-1 makes inactive for this file without deleting any entries)
+New pointer val.      515392021^MNew pointer value:
+User didn't recv cred 515414060^8WARNING: ^5User may not have received credit for upload!^M
+Withdraw credit??     515475018Withdraw credit??
+File val prompt       522333069^MFile validation [^5M^4]anual, [^5A^4]utomatic, [^5P^4]oint entry :
+Search all dirs?      522408024Search all directories?
+Range to toggle prompt526037080Range to toggle (^5x^4-^5y^4), [F]lag or [U]nflag all, [Q]uit (^5?^4=^5List^4):
+Scanning ALL          526129040^MYou are now scanning all file bases.^M
+Nocracksaredone.      756398295at least; not in the way that you think
+Scanning NONE         526172044^MYou are now not scanning any file bases.^M
+Invalid range         526253018^MInvalid range.^M
+Scan for files date:  527208037^MScan for new files since MM/DD/YY:
+Illegal date.         527255013Illegal date.
+Error processing arcv 528132038^M^7** ^5Error processing archive^7 **
+Internal list heading 532221058^3 Length  Size Now  %   Method     Date    Time  Filename
+Internal list bar     532280062^4-------- -------- --- --------- -------- ------ ------------
+Please wait...        532356020:  ^4Please wait....
+Gif heading           534018066^M^M^3Filename.Ext ^4:^3 Resolution ^4:^3 Num Colors ^4:^3 Signat.
+Gif bar               534085051^4=============:============:============:=========
+Illegal filename.     539635017Illegal filename.
+Error reading file.   539653019Error reading file.
+Total lines:          539739013Total lines:
+Clear workspace?      539914017Clear workspace?
+Internal editor hdr   539932054^M   Enter "." on a separate line to exit insert mode.
+Internal editor bar   539987056^2   ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ^1
+Out of space.         540054013Out of space.
+Not all of file read. 540068023Not all of file read.
+Save anyways?         540092013Save anyway?
+Saving...             540106009Saving...
+File base #<#>...     544770015^M^7File base #
+...: unable to perform544786028: Unable to perform command.
+Please inform Sysop   544840026^5Please inform the SysOp.
+Bad DL path base #<#> 544867028Invalid DL path (file base #
+File base #<#>...     545143015^M^7File base #
+...: unable to perform545159028: Unable to perform command.
+Please inform Sysop   545213026^5Please inform the SysOp.
+Bad UL path base #<#> 545240028Invalid UL path (file base #
+Error opening         545641014Error opening
+Filename:             546435021Filename         : ^0
+File size:            546461021File size        : ^2
+Description:          546494021Description      : ^9
+Uploaded by:          546520021Uploaded by      : ^4
+Uploaded on:          546546021Uploaded on      : ^5
+Times DL'd:           546572021Times downloaded : ^5
+Time to DL:           546594023^1Time to download : ^5
+Credit cost:          546622021Credit cost      : ^4
+No ext'd desc.        549708029^5   No extended description.
+No ext'd desc <ptr>   549738033^7   No extended description.^2 (
+Extended:             549665019Extended         :
+Hit ENTER to logoff   550322030^M^MHit [Enter] to logoff now.
+Hit ESC to abort      550353028Hit [Esc] to abort logoff.^M
+Hanging up in.. <time>550382022|12Hanging up in : ^99
+Outputting PCBOARD.SYS560210026Outputting PCBOARD.SYS ...
+Outputting CHAIN.TXT  560237024Outputting CHAIN.TXT ...
+Outputting DORINFO.DEF560262027Outputting DORINFO1.DEF ...
+Outputting DOOR.SYS   560290023Outputting DOOR.SYS ...
+Cheapskates don't     873927492Get away with jack shit!
+Outputting SFDOORS.DAT560314026Outputting SFDOORS.DAT ...
+Outputting CALINFO.BBS560341027Outputting CALLINFO.BBS ...
+Conference hdr        564005013^0N^4:^3Title
+Conference bar        564025040^4=:====================================
+Current conf:         564602035^M^4Current conference: ^5%CT - %CN
+Join which conf:      564638045^M^4Join which conference (^3?^4=^3List^4) :
+Conf joined.          564687018Conference joined.
+No such conf.         564706019No such conference.
+Unknown user.         565188015^MUnknown User.
+Did you mean <name>?  565204017^1Did you mean ^3
+User not found.       565232017^MUser not found.
+Sysop Password:       572177016SysOp Password:
+Err opening MBASES.DAT572381024Error opening MBASES.DAT
+Err opening FBASES.DAT572406024Error opening FBASES.DAT
+Chat recorded to:     573520017Chat recorded to
+Cannot open chat log  573538027Cannot open chat log file:
+Recording chat to:    573566018Recording chat to
+Chat reason:          573585013Chat reason:
+Recorded w/ user:     573612020Recorded with user:
+Nocracksaredone.      756398295at least; not in the way that you think
+Separator             573633036------------------------------------
+/TYPE command         575635006/TYPE
+File not found        575642016*File not found*
+/HELP command         575659005/HELP
+/? command            575665002/?
+/HELP #1              575668043^5/TYPE d:\path\filename.ext^3: Type a file
+Insure policy         352464327That's what YOU think!!
+/HELP #2              575712019^5/BYE^3:   Hang up
+/HELP #3              575732028^5/CLS^3:   Clear the screen
+/HELP #4              575761035^5/PAGE^3:  Page the SysOp and User
+/HELP #5              575797028^5/Q^3:     Exit chat mode^M
+/CLS command          575826004/CLS
+/PAGE command         575831005/PAGE
+/BYE command          575840004/BYE
+Hanging up...         575845013Hanging up...
+/Q command            575859002/Q
+Chat aborted...       575862015Chat Aborted...
+Type EXIT to return.. 577379032Type EXIT to return to Renegade.
+Register me!          375829348pleeeeeeeeeeeeeez!?

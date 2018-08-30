@@ -1,0 +1,402 @@
+Quick Key Reference
+~~~~~~~~~~~~~~~~~~~
+At main selection screen:
+    Up Arrow   - Move up one string       F1    - View the docs
+    Down Arrow - Move down one string     F5    - Restore defaults
+    Page Down  - Move down one page       F6    - Reload Current .OVR setup
+    Page Up    - Move up one page         F8    - Save current setup  *
+    Enter      - Edit Current String      F9    - Import saved setup  *
+    Escape     - Quit Program             F10   - Quit program w/o saving
+    Alt-M      - Display Machine ID #     Alt-G - Goto specific line #
+
+When editing strings:
+    Enter  - Accept Changes               Ctrl-Y - Erase entire string
+    Escape - Discard Changes              F5     - Restore default
+    Insert - Cancel auto-overwrite
+
+Anywhere in the program:
+    Alt-S - Shell to DOS                  * = Registered version only
+
+
+NOTE:  Revision histories are no longer in this document.  See OVREDIT.REV for
+       information regarding changes in this version.
+
+
+------------------------------------------------------------------------------
+                O       V       R       E       D       I       T
+                                    v10-05.3
+------------------------------------------------------------------------------
+
+   I.  General info about the program  .  .  .  .  .  .  .  .  .  .  .  1.0
+       1.  System Requirements.  .  .  .  .  .  .  .  .  .  .  .  .  .  1.1
+       2.  Features  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  1.2
+       3.  Registration .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  1.3
+       4.  Version 3 is here! .  .  .  .  .  .  .  .  .  .  .  .  .  .  1.4
+
+  II.  Usage of the program.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  2.0
+       1.  Description Amenities .  .  .  .  .  .  .  .  .  .  .  .  .  2.1
+       2.  Editing Strings .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  2.2
+
+ III.  Data file formats.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  3.0
+       1.  OVREDIT.DAT  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  3.1
+       2.  OVREDIT.SAV  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  3.2
+
+App A  The Author's personal bitch area.  .  .  .  .  .  .  .  .  .  .  A.0
+
+App B  Contancting the author .  .  .  .  .  .  .  .  .  .  .  .  .  .  B.0
+       1.  Source Code, etc.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  B.1
+
+App C  Greets, thanks, and "I hate you's" .  .  .  .  .  .  .  .  .  .  C.0
+
+-------------------------------- *DISCLAIMER* --------------------------------
+
+Yes this is necessary, because this program has the potential of screwing
+your rg .ovr file VERY seriously.  It is of course not INTENDED to do this,
+if used correctly it is a very valuable tool.
+
+I take no responsibilty whatsoever for whatever may happen because of this
+program, be it your renegade setup screwing up, your hard drive crashing,
+your computer blowing up, your house catching on fire, or a giant, man eating
+tarantula invading the US and eating the inhabitants.
+
+You are granted the right to distribute this program, given that you do not
+modify any of the original distribution files.  You are granted the right
+to modify the data files, with the SOLE purpose being for your use, and not
+to re-distribute.  Authenticity verification IS performed on the .ZIP, so if
+you find that any files do not have a little -AV next to it, please call the
+DS BBS (708)653-0376, and in your new user application please state you would
+like the most recent version of OvrEdit.
+
+In no way is this program intended to violate the copyrights that Renegade
+hold.  It is up to the user to see that the copyright agreements stated
+by the author of Renegade are upheld according to the U.S. Copyright Laws.
+
+All products mentioned afore and hereafter are copyrights of their respective
+holders.
+
+
+--------------------- 1.0  GENERAL PROGRAM INFORMATION -----------------------
+
+Well, one day about 5 months ago, I was home sick from school with a 100
+degree fever.  I got REAL damn bored REAL damn fast.  So I sat down and
+started writing this utility.  About 7 hours later the first version was
+released.  (In actuality it was about 3 days, but it was 7 hours worth
+of work).
+
+To use, simply extract the archive into your main renegade directory.  Next,
+copy the file you wish to use (INDIVID.DAT or DUPED.DAT) to OVREDIT.DAT.
+Then type 'OVREDIT' at the command prompt and watch the fireworks.
+
+
+--- 1.1  System Requirements
+         ~~~~~~~~~~~~~~~~~~~
+
+Here are the system requirements for version 10-05.3 of OvrEdit:
+
+* 2 megabytes of Extended Memory
+* HIMEM.SYS loaded through CONFIG.SYS
+* DOS 3.0 or greater
+* Renegade v10-05 Bulletin Board System
+
+
+--- 1.2  Features
+         ~~~~~~~~
+
+Here are some of the features that OvrEdit sports (yes, I said sports):
+(Registered version has some extras, but also includes these defaults.)
+
+==> Full color translation of pipe codes in bottom windows (I don't do
+    ^P codes because I can't read the SCHEME.DAT file.  Cott doesn't
+    release Quick Basic file formats.)
+==> A really cool interface.
+==> Uhh.. I guess that's it.
+
+It may not seem like alot, but it DOES do alot.  I can't exactly say that
+80+ line lengths is a feature.  It's a given.  Plus most of the good shit
+requires registration.
+
+--- 1.3  Registration
+         ~~~~~~~~~~~~
+
+See register.frm for more info on registering.
+
+Yes folks, you knew it would happen eventually.  I am now requiring
+a small registration fee of 15 dollars for my work.  What you get when
+you register:
+
+==> Ability to edit virtually all the strings in RENEGADE.OVR.
+    (The only un-editable strings are those that are elusive and contain
+    low-ascii codes.  Alot of these type were dropped from the .DAT file
+    due to 'beeps'.  I may add support for this in a later version.  Also,
+    I did not include sensitive commands, such as menu codes, or things like
+    the command-prompt (psuedo-dos) commands in the DOS emulator.)
+==> Ability to save current configuration for import into later .OVR's.
+==> The knowledge that what you have paid for is SAFE.  The registration
+    codes are based on an algorythim calculated from your machine ID, so
+    that even if someone DOES see your registration code and manage to
+    memorize it (all 21 characters) he/she won't be able to do much with it.
+
+Sorry that I had to do this folks, but I had done all this work and nothing
+to show for it.  When you register you will receive a registration keycode
+that will enable all features.
+
+When the program is unregistered, the program will only read the first 42
+lines of the OVREDIT.DAT file (that's three pages).  You can re-arrange the
+.DAT file any way you want, but it's either shift it 42 lines each time you
+want to change something different, or pay 15 dollars and have the ability
+to edit them all at the same time.
+
+I know what you're saying.. and I don't believe in crippleware either.  But
+it's the only way.  We are all getting pretty cheap nowadays, so if I didn't
+do something like this, no one would register.
+
+
+--- 1.4  Version 3 is here at last!
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Well folks, you've been waiting for this version.  The version where the
+author has everything he wanted done, done.  The version where you can
+edit any string.  The version where there are 80+ line lengths.  The version
+that can be used with any version of RG.  The version where I earn money.  :)
+
+Even though I said that I was NOT going to do a major update of the program
+until the next version of RG came out, I changed my mind, because it's been
+almost 9 months so far since Cott released a new version.
+
+In this version, I also added a function to change all duplicated strings in
+the .OVR file at the same time.  This shouldn't be a problem to most of you,
+because of the fact that in fully-configurable things such as Obv/2 and the
+like, you aren't given a string twice.
+
+You may notice that this version requires XMS memory to function;  That is
+because of the immense number of strings.  If I were to do Random Access
+files, it would be too slow.  Besides, if you don't have XMS memory, you
+aren't doing so well as far as computers go, so I wouldn't want to take your
+money in that case.
+
+Due to the fact that I WAS using XMS memory, a little bug appeared that you
+could not pad any string with spaces because of the way that it stores strings
+in XMS memory.  Well i fixed that by adding an indicator to store the length
+of the string, rather than trimming the spaces off the end of it.  Rather
+easy to do, actually.
+
+
+------------------------- 2.0  USAGE OF THE PROGRAM --------------------------
+
+Usage is pretty straight forward, use the arrow keys to scroll thru strings,
+press enter to edit, and escape/F10 quit.  See the quick key reference at the
+top of this document.  It can also be viewed by pressing F1 in the program.
+
+New keys added:
+
+Home      :  Top line on page
+End       :  End line on page
+Ctrl-Home :  Top line/Top page
+Ctrl-End  :  End line/End page
+Alt-G     :  Goto Line #
+
+
+--- 2.1  Description Amenities
+         ~~~~~~~~~~~~~~~~~~~~~
+
+Amenity #1 - <> brackets.
+
+Things contained in greater-than/less-than signs will be put in automatically
+ie 'Tried=<wrongpw>'  Means you have to specifiy the string for 'tried=' but
+the wrong pw is automatically added.
+
+There is also the 'literal' <> brackets identification, which instead of a
+variable, it will include quotation marks.. ie  'Pick which: [1-<#"]">'
+this will display the words 'Pick which: [1-<#>]' Where the '#' is the
+variable.  It's just another descriptor to help make identification easier.
+
+
+Amenity #2 - (...) ellipses
+
+A description with ellipses (...) after means it is continued on the next line.
+A description with ellipses (...) before means it started on the pervious line.
+ie 'Tried=<wrongpw> ...'
+   '... Actual=<actualpw>'
+
+   which would display like this:
+
+   'Invalid Password!  Tried=<wrongpw> Actual=<actualpw>'
+
+The reason this is done like this is because (apparently) Pascal stores
+strings as individual items, and plugs in the actual variable at run time.
+
+
+Amenity #3 - (s) Parenthesis 'S's
+
+If you encounter this, it means an 'S' will automatically be added after the
+string if the value of the variable it is displaying is > 1.
+
+
+Amenity #4 - 'D' Duplicate Strings
+
+When manuevering through the strings, you may, on occasion (depending
+on which version of OVREDIT.DAT you picked up) encounter a blue "D" next
+to strings.  This means that the string you are editing is duplicated, and
+when you save this string, the strings in the same location everywhere else
+will be changed at the same time as well.  This will not happen if you
+have gotten the individual OVREDIT.DAT which lets you edit the duplicated
+strings individually.  But it is up to you to find out which does what.
+
+
+--- 2.1  Editing Strings
+         ~~~~~~~~~~~~~~~
+
+When editing, you can restore the default value (the value in the original
+RENEGADE.OVR) By pressing F5.  Escape discards changes, and enter accepts
+changes.  There is a listing at the top of this document.
+
+If you type just a key, it will erase the entire string.  Pressing INSERT
+or backspace will cancel this and allow you to add on to the string.
+
+Pressing CTRL-Y erases the entire string and starts you from scratch.
+
+A major limitation of this is that there can be no more characters in the
+changed string than there were in the original .OVR.  The editor will not
+let you enter more than the original amount.
+
+
+-------------------------- 3.0  DATA FILE FORMATS ----------------------------
+
+
+--- 3.1  OVREDIT.DAT
+         ~~~~~~~~~~~
+
+The first line is the version that this OVREDIT.DAT was created for.
+Please don't change this.  It causes nasty results.
+
+(This format has changed as of v10-05.3)
+Here is the format for the rest of the file (without quotes)
+
+"IEMSI Negotiation     000653033Attempting IEMSI negotiation ... "
+ \____________________/\____/\_/\_______________________________/
+            1            2    3                4
+
+1.  Description (22 chars, padded w/ spaces)
+2.  Offset in RENEGADE.OVR (decimal, 6 chars)
+3.  Maximum length of string (decimal, 3 chars, max 120)
+4.  Default string (# of chars defined in 3, max length 120)
+
+Note that 3 also defines the length of 4.  That's because when Cott put the
+strings in there initially, he only put in enough length for the string he
+defined:  no more, no less.
+
+An addition as of 10-05.3 is that duplicate strings are recorded.  There
+is an identifier to the program that the string contained above itself is
+duplicated, and where.  Here is the format of such an identifier.
+
+"dupe004509008503009867..."
+ \__/\_________________..."
+   1           2
+
+1.  The word 'dupe'.  It's used to identify the duplicate nature of the
+    string right above it.
+2.  Locations.  (Decimal, 6 chars).  Can go on for 180 characters.
+
+Note:  ALL strings are in there now, so there is really no need for this.
+       * - All strings can only be edited if the program is registered.
+       If it is not, only the first 42 are edited (3 pages worth.)
+
+--- 3.2  OVREDIT.SAV
+         ~~~~~~~~~~
+
+* - This is a registered only feature
+
+This file may be used to distribute your configuration to other people, and
+also can be used to save your configuration for importing into future versions
+of renegade.  NOTE:  When importing, if the string imported is longer than
+the maximum length allowed, it will be truncated.
+
+If you _DO_ decide to distribute your configs, make sure that you distribute
+your copy of OVREDIT.DAT along with it.  The lines in OVREDIT.SAV are
+synchronized with the entries in OVREDIT.DAT.
+
+First Line:  CRC #            - Used to help the program determine whether
+                                it is safe to import.  DO NOT CHANGE THIS
+                                LINE.  I will not be responsible for
+                                anything that may happen as a result of
+                                changing this.  This number is gotten by
+                                basically calculating the CRC of the
+                                OVREDIT.DAT file.  If the .SAV file
+                                is not being imported by the same .DAT
+                                file it was created with, it won't import.
+                                I know you guys aren't stupid, but I like
+                                to make it so that as little bad can happen
+                                as possible.
+Following Lines:  Strings     - Stored in the order they are defined in
+                                OVREDIT.DAT.
+
+
+-------------------- A.0  THE AUTHOR'S PERSONAL BITCH AREA -------------------
+
+Welp, I had noticed that my little comments were scattered throughout the
+docs, so I decided to condense them into one nice little section.
+
+If you people find something wrong with this program, that's fine, but you
+have to understand that there are BOUND to be problems (duplicate strings,
+unknowns, etc) due to the nature of this program.  I mean, what we are doing
+here was NOT meant to be done.  We are hacking the internal structure of a
+person's code.  I have talked to Cott, and he is okay with this, as long
+as no one touches his copyright information.  The .OVR files are CODE, they
+are not strictly storage for string space.  The only reason that this works
+at all is because Pascal stores it's strings in the .OVR files the same way
+that they do in the normal files (length leading, string following.)
+
+I want you guys to know what a HUGE investment of time this was for me.
+Programming it, writing the docs, working out the semantics of registration,
+and all the like is a big pain in the ass.  But it was worth it.  I like to
+program, and I'm not exactly allergic to money you know.  I have done my
+absolute best to test the program and make sure it's bug free, and also to
+come up with a fair price for registration.
+
+
+------------------------- B.0  CONTACTING THE AUTHOR -------------------------
+
+Well, if you've gotten this far, I can tell you are interested in the program.
+To contact me, you can either call my BBS, or email me.
+
+BBS Number - (708)653-0376
+Internet Email - <redacted>@mcs.com <not available until end of august, 1995>
+
+Seeing as how this is a MAJOR release, I've got a little problem regarding
+internet e-mail.  I WILL have an account shortly, but I'm not exactly sure
+that the account will be under that name (I'm not paying for it, good ol'
+pop is, so he decides).  If you check the alt.bbs.renegade.* forums, I will
+do my best to post the latest info in the appropriate forums, as well as my
+e-mail address in case you want to get in touch with me.  Also, anyone who
+is really good with internet shit (I'm definately not) and would like to help
+me create alt.bbs.renegade.ovredit (which would be exceptionally rad), please
+contact me.
+
+If you have any comments, suggestions, ideas, bug reports, or general "you
+suck's", please don't hesitate to contact me.  You can also contact me by
+phone, but that is only given out privately.  Contact me by one of the above
+measures and I will give it out upon request.
+
+PLEASE PLEASE PLEASE contact me if you have ANY suggestions, no matter how
+stupid they may sound.  I am always looking for an excuse to code something.
+Plus there is no point in having this program if it doesn't do what you want
+it to do.
+
+
+--- B.1  Getting the Source Code
+         ~~~~~~~~~~~~~~~~~~~~~~~
+
+Sorry, the source code is no longer for sale (guess you guys missed out).
+
+
+------------------- C.0  GREETS, THANKS, AND "I HATE YOU'S" ------------------
+
+Special greets to my good buddy Usul.  And to Hurricane, wherever he went to.
+And also to Lars Ulrich, a good friend who has also disappeared.
+
+Goddamit.  I keep forgetting who I want to greet.  This is the whole point
+of writing documentation.  All programmers look forward to this.  "Ahh
+finally.  The greets.  The whole reason for coding at all."  Hello to all
+my friends, you know who you are.
+
+Last minute greet: Dominion.  Good luck w/ Atrius: Journey.  (Can I help? :)

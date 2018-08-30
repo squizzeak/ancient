@@ -1,0 +1,101 @@
+OvrEdit Revision History:
+~~~~~~~~~~~~~~~~~~~~~~~~~
++ Added           - Removed
+! Fixed           @ Changed
+# To be added     X Known Bugs
+
+Note:  All "To be added's (#)" and "Know Bugs (X)" are inclusive throughout
+       the revision history unless you are notified that they have been fixed
+       or added.
+
+v10-05.1b - 02-15-95 - Initial Public Release
+
++ SO many god damn things were put into this version that I can't count them.
+# Field Description Searches.
+# Multiple Config Save files.
+# Command line options for daily config changes or something like that.
+X Not all the strings have been put into the current OVREDIT.DAT file.
+
+v10-05.1c - 06-28-95 - Second Public Release (what else should I call it?)
+
+! Bug with line calculating in the help file section fixed. (How come when
+  it was at the top of the help file, it said it was only line 18??? eh??)
+! If users entered a string description whose length was greater than 22 it
+  looked rather funky.  This has been fixed.
+! If users entered a string whose length was greater than 54 it looked rather
+  funky (Not to mention caused a major error).  This has been fixed.
+- Took out the duplicate strings from the default OVREDIT.DAT.  You want 'em
+  back, you put 'em in.
++ Added a feature to let you know what version of renegade the OVREDIT.DAT
+  you are using was created for.
++ Added memory status monitor and also help file indicator to let you know
+  whether the help file is in memory or not (more of a fascination than
+  a feature I guess).  The help file indicator is a little light in the
+  lower right hand corner.  Grey means not loaded:  Green means is loaded.
++ Added a 'shell to dos' function.  You can use it by pressing alt-s anywhere
+  in the program.
+# I'm hoping to eventually add the ability to edit strings over 54 chars. *
+X Still no programming team.  People don't seem very willing to help me out
+  with this project.
+
+* - Done as of v10-05.2a
+
+v10-05.2a - 07-13-95 - Requests added!
+
+@ Made it so that you can edit strings longer than 54 bytes.  You now have a
+  full 79 characters available to you.  (It's finally here!!!!!!)
++ During String edit, you can just type a character when you first start
+  editing, and it will erase the line for you.  (Much thanks to SPECTROCITY
+  of Endicott, NY for this idea.)
++ Added Ctrl-Y during string edit to clear the line.
++ Made it so that you can use ascii values of anywhere from 32 to 255 while
+  editing strings.  (High ascii baby!!)
++ Added MASSIVE error checking in Pipe codes.  Try it out and see.  No more
+  errors on things such as ||, |1d, |31, or |1|
++ Added the Message Header Bars!  (This was a MAJOR request by lots of people.
+  They kept asking, 'How do you change the message header bar?  Now you can!)
+X But there still is no ANSI compatible message bar available.  This is because
+  it's length is longer than 80.  DAMN!
+# Automatic upgrade capabilities.  (Searching for the new byte positions of
+  strings in the RENEGADE.OVR)
+# I guess that means I have to add the ability to edit strings longer than 80
+  characters now, don't I.
+# (All these ideas!) I want to find a way (In QB) to swap to EMS or XMS for
+  shelling to DOS.  I have an XMS library but I have yet to use it.
+
+v10-05.3 - 07-06-95 - BIG BIG event!
+
+- Revision histories no longer in the main documentation.
+- OvrSrch information removed from this revision information file.
+- OVRSAFE.DAT now removed from program.
+- ENTER.EXE has been removed from the archive.
+- OVRSRCH.EXE has been removed from the archive.  It is obsolete, all strings
+  have been found.
+@ OVREDIT.DAT format changed.
+@ Now requires REGISTRATION :(  See ovredit.doc for details.
+@ Now only saves those strings that have been modified.  Sped up save
+  routines DRAMATICALLY.
+! 80+ char line lengths!  This was a BIG part of it.. took me almost 3 hours
+  to modify the code to support this.  Also had to modify the pipe code
+  translations to carry over from the first half of the string you are
+  editing.  Take my word for it; it was hard.
++ Now hilights the actual string as well as the description when selecting.
++ Now edits duplicate strings at the SAME TIME.  Also added an indicator
+  to let you know when you are editing a duplicate string.
++ Home/End/Ctrl-Home/Ctrl-End/Alt-G/Alt-M.  Keys added.  See OVREDIT.DOC
+  for more information.
+# FULL editing capabilities.. Left, right, insert and delete.  (Yea right. :)
+# Have to add support for BEEPS.  There are strings that contain beeps that
+  should be able to be changed.
+# Multiple .DAT/.SAV file management.
+# Automatic %DF adding.
+# Sorry folks, ovrupdt just didn't get done.
+X Ahh shit.  I keep forgetting what I put in.
+
+v10-05.3a - 08-20-95 - VERY minor change.
+
++ Added a feature that if you are upgradingg, it won't error out if you try
+  to use the old OVREDIT.DAT file.
+@ Had to change something in the program to avoid copyright infringement.
+  Cott Lang considered editing his copyright notice violation of copyright,
+  so the string has been removed.

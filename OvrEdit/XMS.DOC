@@ -1,0 +1,353 @@
+    
+                                   XMS.ASM
+                    Extended Memory Driver for QuickBASIC 4.0+
+
+                       (C) 1993 by One World Software.
+                                 P.O. Box 269
+                            Bronston, KY 42518-0269
+                              BBS: (606) 561-5766
+                              Author: Robin Duffy
+
+         Now you can use extended memory (if available) from your
+    QuickBASIC programs with just a few simple calls. This package
+    provides a rudimentry interface to HIMEM.SYS for QuickBASIC 4.0+ and
+    BASCOM 6. Routines are provided to initialize, allocate, release, and
+    otherwise manipulate XMS memory directly from your program.
+
+         My personal thanks go to Ethan Winer. The overall concept of an
+    interface for XMS memory was inspired by his method of interfacing
+    expanded memory with QuickBASIC. Without his brilliant work I would
+    have never thought to set this up as an integrated package.
+
+     REQUIREMENTS:
+
+         1. Requires a 80286 or better processor that has extended
+            memory available (goes without saying).
+
+         2. Requires HIMEM.SYS to be loaded via CONFIG.SYS.  These
+            routines will work with extended memory managers that adhere
+            to the Lotus/Intel/Microsoft/AST eXtended Memory Specification
+            (XMS) version 2.0 or greater and will not work with other
+            extended memory managers.
+
+         3. Requires DOS 3.0 or greater. This is a requirement of HIMEM
+            and not of this software. These routines may be called with
+            any DOS version, but will only work if HIMEM is loaded.
+
+    INSTALLATION:
+
+         The XMS driver is provided as an object file ready for inclusion
+    in your favorite library. You will need LIB.EXE and LINK.EXE to create
+    linking and Quick libraries. To add XMS.OBJ to your library you can
+    use the following command:
+
+              LIB  mylib +xms;
+
+    where mylib is the name of your present linking library. If you do not
+    use special libraries, use the default library QB.LIB.
+
+         Next create a Quick library for use in the editing environment
+    with LINK.EXE like this:
+
+              LINK /q/se:256 mylib.lib xms,,nul,bqlb40
+
+    If you are using QB 4.5, substitute BQLB45 for bqlb40.
+
+         XMS is now ready for use. Start the QB environment with the /L
+    switch and the name of your Quick library to make it available inside
+    the QB editor.
+
+    GENERAL NOTES:
+
+         1. This code will work in the QB environment. However, you must
+            explicitly release the memory you have allocated from your
+            program BEFORE IT ENDS. QB will NOT release it when it exits!
+            You may otherwise set breakpoints, trace, etc. without any
+            problems. Do not make edits that require program restarts or
+            the memory will be lost until the next reboot.
+
+         2. Remember that if XMSError shows an error, any subsequent
+            successful operation will reset it to zero. See XMSError
+            later in this text for more info.
+
+         3. Writes and reads from extended memory take a little longer
+            than accesses to conventional memory. This is not a fault
+            of this software. Rather, it takes time for HIMEM.SYS to
+            switch the processor in and out of protected mode. However,
+            these extended accesses are still hundreds of times faster
+            than disk accesses.
+
+         4. All these routines may be safely called on any machine even if
+            it has no extended memory.  They all reference a flag set by
+            InitXMS, and just return if no memory is available.  This
+            greatly simplifies the effort required to use this stuff.
+
+         In the spirit of programmer to programmer, I am not requiring any
+    compensation for the use of these routines. You may use them as you
+    see fit. However, since these routines are free, I will not be held
+    responsible for any damages resulting from use of these routines.
+    Likewise I do not guarrantee the accuracy of any information provided
+    here. It would be a nice gesture if you mention where you got this in
+    your program source code.
+
+         Below is a reference for the routines supported by this driver.
+    Although crude at this point, the routines still provide a very usable
+    and convenient interface for extended memory. Unless otherwise noted,
+    all parameters are integers.
+
+    ----------------------------------------------------------------------
+    INITXMS: Basic sub
+
+         This routine must be called prior to any others in this driver
+    for extended memory to be available for your program.
+
+         CALL InitXMS(There%, MemSize%)
+
+         There% - on exit will contain a -1 (XMS is good) or a zero (XMS
+                  not installed or unavailable).
+
+         MemSize% - if There% is -1, this will contain the amount of
+                  extended memory available (in K bytes) for your use.
+                  This will probably be less than the machine total
+    ---------------------------------------------------------------------
+    XMSERROR: Basic function
+
+         This function returns the success of the last XMS operation. You
+    may test the success of any operation right afterward by referencing
+    this function.  Because it is a function, it must be declared before
+    it may be used.
+
+         DECLARE FUNCTION XMSError%()
+
+         Status% = XMSError%
+
+         Status%  -  0 = last operation sucessful
+                    -1 = last operation resulted in error
+
+         You can test this function after every routine except for
+    InitXMS. It should be noted that any sucessful operation after the
+    operation causing the error will clear this function. If extended
+    memory is not available (for whatever reason), this function will
+    always return an error condition (because XMS memory is not there).
+
+         See also WhichXError, which returns the actual error code, and
+    the table of error codes at the end of this text.
+    ---------------------------------------------------------------------
+    GETXMS: Basic function
+
+         This function allocates an extended memory block for your use and
+    returns a handle (much like DOS file handles) used for all future
+    references to this block. Your program can use multiple blocks.
+    Because it is a function, it must be declared before it may be used.
+
+         DECLARE FUNCTION GetXMS%(Amount%)
+
+         Handle% = GetXMS(Amount%)
+
+    Where:
+         Handle% - returns the block handle. 0 means error in allocation.
+
+         Amount% - On entry, set this to the size block desired (in K
+                   bytes).
+    ---------------------------------------------------------------------
+    FREEXMS: Basic sub
+
+         This sub will release memory allocated by GetXMS.
+
+         CALL FreeXMS(Handle%)
+
+         where Handle% is the block handle assigned by GetXMS. It is
+    important to release any memory you allocate prior to exiting your
+    program. This memory is not automatically released by DOS at
+    termination as is conventional memory, but instead remains allocated.
+    Failure to deallocate XMS memory will cause it to be "lost" until the
+    next time the host machine is rebooted.
+    ---------------------------------------------------------------------
+    ARRAY2XMS: Basic sub
+
+         This sub will copy a block from conventional far memory to an
+    allocated block of XMS memory. This block may be all or part of an
+    integer, long integer, or user type array. Using the optional long
+    syntax you may save any continuous portion of convential memory to
+    XMS, including the screen!
+
+        CALL Array2XMS(SEG Array%(Start%), Handle%, NumBytes&)
+                              or
+        CALL Array2XMS(BYVAL FromSeg%, BYVAL FromOff%, Handle%, NumBytes&)
+
+    Where:
+         Array%(Start%) - Start of conventional memory block to transfer
+
+         Handle% - Handle assigned by GetXMS
+
+         NumBytes& - long integer specifying the number of bytes to
+              transfer.  If a constant is used, it should be appended
+              by a "&" specifier (forcing a long reference).
+
+         Optionally, you can pass the starting segment and offset of the
+    source block by using the BYVAL keyword.
+    ---------------------------------------------------------------------
+    XMS2ARRAY: Basic sub
+
+         This sub will copy a previously saved block from extended memory
+    to a block in conventional memory. This is the compliment to Array2XMS.
+
+         CALL XMS2Array(Handle%, SEG Array%(Start%), NumBytes&)
+                             or
+         CALL XMS2Array(Handle%, BYVAL ToSeg%, BYVAL ToOff%, NumBytes&)
+
+    Where:
+         Handle% - handle of XMS block of stored data
+
+         Array(Start%) - start of destination block in normal memory.
+
+         NumBytes&  - long integer specifying the number of bytes to
+              transfer. If a constant is used, it should be appended
+              by a "&" specifier (forcing a long reference).
+
+         Optionally, you can pass the starting segment and offset of the
+    destination block by using the BYVAL keyword.
+    ---------------------------------------------------------------------
+    XGETELEMENT: Basic sub
+
+          This sub will return a portion of a block of XMS memory into a
+          variable. This is handy for retrieving a single value from a
+          saved block of XMS.
+
+        CALL XGetElement(Handle%, Variable, EleLen%, EleNum%)
+
+    Where:
+        Handle% - Handle assigned to XMS block by GetXMS
+
+        Variable - Variable to receive the returned value. This variable
+              can be any type of variable except a conventional string.
+
+        EleLen% - Integer describing the length of the elements stored in
+              in the XMS block. This value must be an even number. Thus,
+              integers would be 2, long integers are 4, etc. You may
+              specify any length, but it is assumed all elements stored
+              in the block are the same length.
+
+        EleNum% - the element number to retrieve. This value is used
+              with EleLen% to determine the offset into the XMS block
+              to start reading. The first element is considered to be
+              element number one, not zero.
+
+          Variable types supported are integers, long integers, single and
+    double precision numbers, and user type variables AS LONG AS THE LENGTH
+    OF THE VARIABLE IS EVEN. This variable cannot be a conventional string.
+    If the variable length is odd it will be forced even without error.
+    ---------------------------------------------------------------------
+    XSETELEMENT: Basic sub
+
+         This is the compliment procedure for GETELEMENT. The syntax is
+    identical to XGETELEMENT, except that Variable holds the value to
+    place into XMS. All restrictions and notes for XGETELEMENT apply to
+    this procedure.
+    ---------------------------------------------------------------------
+    XMS2XMS: Basic Sub
+
+         This sub will copy any continuous portion from one block of XMS
+         to another block of XMS. The move is performed entirely within
+         XMS - no conventional memory is required.
+
+         CALL XMS2XMS(SHand%, SOffset&, DHand%, DOffset&, NumBytes&)
+
+    Where:
+         SHand% - the handle of the source XMS block as returned by
+                  GetXMS.
+
+         SOffset& - the 32 bit offset into the source block to start
+                  reading. If a constant is used it should be appended
+                  by the "&" specifier, forcing a long reference.
+
+         DHand% - the handle of the destination block of XMS as returned
+                  by GetXMS. This can be the same handle as the source
+                  handle (see note below).
+
+         DOffset& - the 32 bit offset into the destination block to place
+                  the copy. If a constant is used it should be appended by
+                  the "&" specifier, forcing a long reference.
+
+         NumBytes& - the number of bytes to copy. This must be an even
+                  number. Odd numbers are forced even without indication.
+                  If a constant is used it should be appended by the "&"
+                  specifier, forcing a long reference.
+
+         Block copies can be performed within the same block as long as
+    any overlap is in the forward direction (i.e. the source offset is
+    less than the destination offset).
+    ---------------------------------------------------------------------
+    WHICHXERROR: Basic function
+
+         This function returns the actual error code as supplied by
+    HIMEM.SYS (see notes on XMSError). Where XMSError provides an easy
+    check for errors, this procedure gives you the actual error code.
+    Because it is a function, it must be declared before it may be used.
+
+         DECLARE FUNCTION WhichXError%()
+
+         Code% = WhichXError%
+
+         Code% receives the actual error code generated by HIMEM.SYS. If
+    XMS memory is unavailable for any reason, this function will always
+    return error 128 - "Function not supported".
+    ---------------------------------------------------------------------
+    SETXERROR: Basic sub
+
+         This sub will set the error value returned by WhichXError.
+
+         CALL SetXError(ErrorCode%)
+
+         where ErrorCode% is the value to set.
+
+         This sub is handy for many purposes, among those being
+    communications between modules and procedures. For example, if you
+    decide to use XMS memory as an array (using the XGET and XSETELEMENT
+    procedures), you can set an illegal element code if user input is out
+    of bounds.
+
+         The value you specify should be in the range of 0 - 255. If the
+    value is greater than 255, only the low byte of the value passed will
+    be used.
+
+         Please note this sub will not work if XMS is not available. This
+    is to avoid confusion on the part of WhichXError. WhichXError will
+    always return a "Function not supported" error if XMS is not present.
+    ---------------------------------------------------------------------
+                            ERROR CODES RETURNED
+
+         The error codes returned by this driver are the actual HIMEM.SYS
+    error codes, so not all will apply to this package. In the spirit of
+    completeness I shall include all codes I have documentation on. The
+    driver takes no action upon errors beyond reporting their occurrence.
+    This is left up for you to handle.
+
+    128  Function not supported
+    129  VDisk was detected
+    130  An A20 error occurred
+    142  General driver error (HIMEM.SYS)
+    143  Fatal driver error (HIMEM.SYS)
+    144  HMA does not exist
+    145  HMA is already in use
+    147  HMA is not allocated
+    148  A20 still enabled
+    160  Not enough memory
+    161  All handles are allocated
+    162  Invalid handle
+    163  Source handle invalid
+    164  Source offset is invalid
+    165  Destination handle is invalid
+    166  Destination offset is invalid
+    167  Invalid length parameter
+    168  Move has invalid overlap
+    169  Parity error occurred
+    170  Block is not locked
+    171  Block is locked
+    172  Block lock count overflow
+    173  Lock failed
+    176  Only a smaller UMB is available
+    177  No UMB's are available
+    178  UMB segment is invalid
+
+                       ** End of documentation **

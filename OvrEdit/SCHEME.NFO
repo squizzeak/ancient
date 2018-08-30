@@ -1,0 +1,15 @@
+The scheme for computing the string is as follows:
+
+Add up ASC values of all characters in name.
+Add length.
+Multiply by length.
+Add ASC values of first and last character.
+This is the first keycode.
+
+Multiply first and last character by length.
+Add two values together.
+This is the second keycode.
+
+Add first keycode and second keycode.
+Multiply by length.
+This is the third keycode.
